@@ -1,0 +1,57 @@
+.burger {
+  @apply
+  tw-h-full
+  tw-flex
+  tw-items-center
+  tw-justify-center
+}
+
+.burgerWrapper {
+  @apply
+  tw-w-[20px]
+  tw-h-[10px]
+  tw-relative
+}
+
+.burgerItem {
+  @apply
+  tw-h-[3px]
+  tw-absolute
+  tw-block
+  tw-bg-text-primary
+
+  tw-transition-all
+  tw-duration-[250]
+}
+
+.burgerItem:nth-child(1) {
+  @apply
+  tw-top-0
+  tw-left-0
+  tw-w-full
+}
+
+.burgerItem:nth-child(2) {
+  @apply
+  tw-top-[7px]
+  tw-left-0
+  tw-w-[60%]
+}
+
+.burgerOpen {
+  .burgerItem:nth-child(1) {
+    @apply
+    tw-top-[4px]
+    tw-left-0
+    tw-rotate-[45deg]
+  }
+
+  .burgerItem:nth-child(2) {
+    @apply
+    tw-top-[4px]
+    tw-left-0
+    tw-w-full
+    tw-rotate-[-45deg]
+  }
+
+}

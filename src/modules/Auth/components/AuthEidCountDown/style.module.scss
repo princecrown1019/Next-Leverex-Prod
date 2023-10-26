@@ -1,0 +1,45 @@
+.authEidCountDown {
+  @apply
+  tw-h-64
+  tw-w-full
+}
+
+.authEidCountDownPitch {
+  @apply
+  tw-mt-20
+  tw-text-base
+  tw-text-center
+  tw-text-text-primary
+  tw-font-medium
+}
+
+.authEidCountDownProgressContainer {
+  @apply
+  tw-mt-4
+  tw-w-full
+}
+
+.authEidCountDownTimer {
+  @apply
+  tw-mt-4
+  tw-text-sm
+  tw-text-center
+  tw-text-primary
+}
+
+.authEidCountDownTimerHidden {
+  @apply
+  tw-hidden
+}
+
+.authEidCountDownButton {
+  @apply
+  tw-mt-6
+  tw-pl-4
+  tw-list-decimal
+}
+
+.authEidCountDownButtonHidden {
+  @apply
+  tw-hidden
+}

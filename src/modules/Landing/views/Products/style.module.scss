@@ -1,0 +1,8 @@
+.productsList {
+  @apply
+  tw-flex
+  tw-justify-center
+  tw-list-none
+
+  md:tw-flex-col
+}

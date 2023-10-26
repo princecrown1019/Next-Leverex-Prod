@@ -1,0 +1,56 @@
+body {
+  --tv-color-pane-background: #21212E;
+  --tv-color-toolbar-button-text: #6F6E84;
+  --tv-color-toolbar-button-text-hover: #FFF;
+  --tv-color-toolbar-button-background-hover: #4A536F;
+  --tv-color-toolbar-button-background-expanded: #21212E;
+
+  --tv-color-platform-background: #3B3B4E;
+  --tv-color-pane-background-secondary: #3B3B4E;
+  --tv-color-toolbar-button-background-secondary-hover: #4A536F;
+  --tv-color-toolbar-button-text-active: #0085FF;
+  --tv-color-toolbar-button-text-active-hover: #0085FF;
+  --tv-color-item-active-text: #0085FF;
+  --tv-color-toolbar-toggle-button-background-active: #4A536F;
+  --tv-color-toolbar-toggle-button-background-active-hover: #4A536F;
+}
+
+/* WIDGET HEADER */
+.layout__area--top {
+  border-bottom: 1px solid var(--tv-color-platform-background) !important;
+  background-color: var(--tv-color-platform-background) !important;
+}
+
+/* TOOLBAR */
+.layout__area--left {
+  border-right: 1px solid var(--tv-color-platform-background) !important;
+}
+
+/* TOOLBAR > TOGGLE BUTTON */
+.toggleButton-3zv4iS2j {
+  background-color: var(--tv-color-platform-background) !important;
+  border-radius: 5px !important;
+}
+
+/* TOOLBAR > TOGGLE BUTTON > ICON:CLOSED */
+.toggleButton-3zv4iS2j .background-3zv4iS2j {
+  stroke: var(--tv-color-platform-background) !important;
+  fill: rgba(0, 133, 255, 0.05) !important;
+}
+
+/* TOOLBAR > TOGGLE BUTTON > ICON:OPEN */
+.container-3CL4Geq2 .background-3CL4Geq2 {
+  stroke: var(--tv-color-platform-background) !important;
+  fill: rgba(0, 133, 255, 0.05) !important;
+}
+
+
+/* TOOLBAR > TOGGLE BUTTON > ICON > ARROW:OPEN */
+.toggleButton-3zv4iS2j .arrow-3zv4iS2j {
+  stroke: var(--tv-color-toolbar-button-text-active) !important;
+}
+
+/* TOOLBAR > TOGGLE BUTTON > ICON > ARROW:CLOSED */
+.arrow-3CL4Geq2 {
+  stroke: var(--tv-color-toolbar-button-text-active) !important;
+}

@@ -1,0 +1,51 @@
+.keyManagement {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-flex
+  tw-flex-col
+}
+
+.keyManagementTop {
+  @apply
+  tw-p-6
+}
+
+.keyManagementHeadlineRow {
+  @apply
+  tw-flex
+  tw-w-fit
+  tw-items-center
+  tw-justify-between
+}
+
+.keyManagementHeadline {
+  @apply
+  tw-mr-6
+}
+
+.keyManagementPitch {
+  @apply
+  tw-mt-4
+}
+
+.keyManagementBottom {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-overflow-hidden
+}
+
+.keyManagementKeys {
+  @apply
+  tw-flex-[4]
+  tw-border-t-[1px]
+  tw-border-t-border
+}
+
+.keyManagementKeyInfo {
+  @apply
+  tw-flex-[4.5]
+  tw-border-t-[1px]
+  tw-border-t-border
+}

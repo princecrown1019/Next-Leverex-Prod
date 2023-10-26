@@ -1,0 +1,10 @@
+.faqText {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}
+
+.faqText:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}

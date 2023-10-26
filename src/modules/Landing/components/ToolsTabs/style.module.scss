@@ -1,0 +1,102 @@
+.toolsTabs {
+  @apply
+  tw-max-w-[600px]
+  tw-w-full
+
+  tw-ease-in-out
+  tw-transition-transform
+  tw-duration-[150ms]
+
+  md:tw-flex
+  md:tw-max-w-[unset]
+  md:tw-translate-x-0
+}
+
+.toolsTabsItem {
+  @apply
+  tw-max-w-[392px]
+  tw-block
+  tw-w-full
+
+  md:tw-flex
+  md:tw-max-w-[290px]
+  md:tw-min-w-[290px]
+
+  sm:tw-min-w-[250px]
+}
+
+.toolsTabsItem:not(:first-of-type) {
+  @apply
+  tw-mt-6
+
+  md:tw-mt-0
+}
+
+.toolsTabsItem:not(:last-of-type) {
+  @apply
+  md:tw-mr-6
+
+  sm:tw-mr-4
+}
+
+.toolsTabsButton {
+  @apply
+  tw-p-6
+  tw-w-full
+  tw-bg-transparent
+  tw-border-[1px]
+  tw-border-border
+  tw-rounded-2xl
+  tw-text-lg
+  tw-text-text-secondary
+  tw-flex
+  tw-items-center
+  tw-justify-start
+
+  tw-transition-transform
+  tw-ease-in-out
+  tw-duration-150
+
+  sm:tw-p-4
+  sm:tw-text-base
+}
+
+.toolsTabsButtonActive {
+  @apply
+  tw-text-primary
+  tw-bg-primary-contrast-text
+  tw-border-primary
+  tw-translate-x-[16px]
+
+  md:tw-translate-x-0
+}
+
+.toolsTabsButtonActive > svg {
+  @apply
+  tw-fill-primary
+}
+
+.toolsTabsButtonIcon {
+  @apply
+  tw-mr-6
+  tw-w-6
+  tw-h-6
+
+  md:tw-mr-4
+  md:tw-w-[20px]
+  md:tw-h-[20px]
+}
+
+@media screen and (max-width: 1320.98px) {
+  .toolsTabs {
+    @apply
+    tw-ml-[60px]
+  }
+}
+
+@media screen and (max-width: 1100.98px) {
+  .toolsTabs {
+    @apply
+    tw-ml-0
+  }
+}

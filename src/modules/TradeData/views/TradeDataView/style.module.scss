@@ -1,0 +1,30 @@
+.tradeData {
+  @apply
+  tw-py-6
+  tw-px-4
+  tw-w-full
+  tw-h-full
+  tw-rounded-2xl
+  tw-bg-background-paper
+  tw-relative
+  tw-overflow-hidden
+}
+
+.tradeDataLoggedIn {
+  @apply
+  tw-overflow-auto
+}
+
+.tradeDataHeadline {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+}
+
+.tradeDivider {
+  @apply
+  tw-mt-6
+  tw-w-full
+  tw-h-[1px]
+  tw-bg-border
+}

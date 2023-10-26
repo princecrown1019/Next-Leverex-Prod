@@ -1,0 +1,42 @@
+.dragAndDropContainer {
+  @apply
+  tw-py-4
+  tw-px-6
+  tw-bg-background-input
+  tw-rounded-lg
+  tw-relative
+  tw-overflow-hidden
+  tw-flex
+  tw-w-full
+  tw-items-center
+}
+
+.dragAndDropIcon {
+  @apply
+  tw-mr-4
+  tw-h-6
+  tw-w-6
+  tw-min-w-max
+}
+
+.dragAndDropIconSelected {
+  @apply
+  tw-fill-primary
+}
+
+.dragAndDropBody {
+}
+
+.dragAndDropLabel {
+  @apply
+  tw-text-base
+}
+
+.dragAndDropPlaceholder {
+  @apply
+  tw-text-xs
+  tw-text-text-secondary
+  tw-text-ellipsis
+  tw-overflow-hidden
+  tw-whitespace-pre
+}

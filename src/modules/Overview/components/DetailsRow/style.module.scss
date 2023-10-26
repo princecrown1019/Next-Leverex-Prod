@@ -1,0 +1,24 @@
+.detailsRow {
+  @apply
+  tw-flex
+  tw-justify-between
+  tw-items-center
+}
+
+.detailsRow:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}
+
+.detailsRowLabel {
+  @apply
+  tw-mr-2
+  tw-w-fit
+}
+
+.detailsRowValue {
+  @apply
+  tw-text-text-primary
+  tw-text-right
+  tw-text-xxs
+}

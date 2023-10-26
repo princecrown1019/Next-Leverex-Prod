@@ -1,0 +1,13 @@
+.transactionAddressTooltip {
+  @apply
+  tw-py-1.5
+  tw-px-2
+  tw-rounded-md
+}
+
+.transactionAddressTooltipValue {
+  @apply
+  tw-block
+  tw-text-xxs
+  tw-text-text-primary
+}

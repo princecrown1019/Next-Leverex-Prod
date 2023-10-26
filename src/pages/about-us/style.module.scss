@@ -1,0 +1,9 @@
+.staticSection:not(:first-of-type) {
+  @apply
+  tw-mt-8
+}
+
+.staticPitchMarginTop {
+  @apply
+  tw-mt-6
+}

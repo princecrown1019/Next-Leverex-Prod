@@ -1,0 +1,39 @@
+.socials {
+  @apply
+  tw-flex
+}
+
+.socialsItem {
+  @apply
+  tw-w-8
+  tw-h-8
+  tw-select-none
+}
+
+.socialsItem:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.socialsLink {
+  @apply
+  tw-text-transparent
+  tw-w-full
+  tw-h-full
+  tw-block
+}
+
+.socialsLinkTwitter {
+  @apply
+  tw-bg-[url(/static/media/landing/twitter.svg)]
+}
+
+.socialsLinkTelegram {
+  @apply
+  tw-bg-[url(/static/media/landing/telegram.svg)]
+}
+
+.socialsLinkDiscord {
+  @apply
+  tw-bg-[url(/static/media/landing/discord.svg)]
+}

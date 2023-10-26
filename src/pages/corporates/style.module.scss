@@ -1,0 +1,97 @@
+.institutionsParallax {
+  @apply
+  tw-h-[2812px]
+
+  md:tw-h-[3084px]
+
+  sm:tw-h-[5320px]
+}
+
+.institutionsContainer {
+  @apply
+  tw-bg-background-paper
+}
+
+.institutionsContainerInner {
+  @apply
+  tw-relative
+  tw-z-[1]
+}
+
+
+.headerLinkActive {
+  @apply
+  tw-text-primary
+}
+
+.institutionsWrapper {
+  @apply
+  tw-mx-auto
+  tw-px-[60px]
+  tw-max-w-[1300px]
+  tw-w-full
+
+  sm:tw-px-4
+}
+
+.institutionsIntro {
+  @apply
+  tw-pt-[216px]
+
+  sm:tw-pt-[140px]
+}
+
+.institutionsSteps {
+  @apply
+  tw-pt-24
+  tw-flex
+  tw-flex-col
+  tw-items-center
+
+  md:tw-pt-[90px]
+
+  sm:tw-pt-14
+}
+
+.institutionsAccess {
+  @apply
+  tw-pt-24
+  tw-flex
+  tw-flex-col
+  tw-items-center
+
+  md:tw-pt-[90px]
+
+  sm:tw-pt-14
+}
+
+.institutionsExplore {
+  @apply
+  tw-mx-auto
+  tw-pt-24
+  tw-flex
+  tw-flex-col
+  tw-items-center
+
+  md:tw-pt-[90px]
+
+  sm:tw-pt-14
+}
+
+.institutionsSolutions {
+  @apply
+  tw-mt-14
+
+  sm:tw-mt-8
+}
+
+.institutionsFooter {
+  @apply
+  tw-mt-[120px]
+  tw-z-[1]
+  tw-relative
+
+  md:tw-mt-[90px]
+
+  sm:tw-mt-14
+}

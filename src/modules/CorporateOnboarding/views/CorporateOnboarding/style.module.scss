@@ -1,0 +1,135 @@
+.corporateOnboardingModalContainer {
+  @apply
+  tw-max-w-[800px]
+}
+
+.corporateOnboardingModal {
+  @apply
+  tw-mt-6
+}
+
+.corporateOnboardingModalPitchBold {
+  @apply
+  tw-text-primary
+}
+
+.corporateOnboardingModalPitch {
+  @apply
+  tw-mt-0
+  tw-text-left
+}
+
+.corporateOnboardingModalForm {
+  @apply
+  tw-w-full
+}
+
+.corporateOnboardingModalInputs {
+  @apply
+  tw-flex
+  tw-w-full
+
+  md:tw-mt-4
+  md:tw-flex-col
+}
+
+.corporateOnboardingModalInputs:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.corporateOnboardingModalFormColumn {
+  @apply
+  tw-flex-1
+}
+
+.corporateOnboardingModalFormInput {
+  @apply
+  tw-flex-1
+}
+
+.corporateOnboardingModalFormInput:not(:last-of-type) {
+  @apply
+  tw-mr-4
+
+  md:tw-mr-0
+}
+
+.corporateOnboardingModalFormInput:not(:first-of-type) {
+  @apply
+
+  md:tw-mt-4
+}
+
+.corporateOnboardingModalFormDragAndDrop:not(:last-of-type) {
+  @apply
+  tw-mr-4
+
+  md:tw-mr-0
+}
+
+.corporateOnboardingModalFormDragAndDrop:not(:first-of-type) {
+  @apply
+
+  md:tw-mt-4
+}
+
+.corporateOnboardingModalFormTextarea {
+  @apply
+  tw-mt-4
+}
+
+.corporateOnboardingModalAgreement {
+  @apply
+  tw-flex
+  tw-w-full
+}
+
+.corporateOnboardingModalAgreement:first-of-type {
+  @apply
+  tw-mt-10
+}
+
+.corporateOnboardingModalAgreement:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.corporateOnboardingModalAgreementPitch {
+  @apply
+  tw-max-w-full
+}
+
+.corporateOnboardingModalAgreementCheckbox {
+  @apply
+  tw-mt-1
+  tw-mr-2
+  tw-max-h-[1rem]
+  tw-min-w-[1rem]
+  tw-max-w-[1rem]
+
+  disabled:tw-cursor-pointer
+}
+
+.corporateOnboardingModalAgreementLink {
+  @apply
+  tw-relative
+  tw-z-[1]
+}
+
+.corporateOnboardingModalButton {
+  @apply
+  tw-mt-6
+}
+
+.corporateOnboardingModalButtonDisabled {
+  @apply
+  tw-opacity-30
+}
+
+.corporateOnboardingModalLink {
+  @apply
+  tw-mt-4
+  tw-text-center
+  tw-text-sm
+}

@@ -1,0 +1,124 @@
+.featuresItem {
+  @apply
+  tw-flex
+  tw-mx-auto
+  tw-items-center
+  tw-w-1/2
+  tw-opacity-0
+  tw-translate-y-[-100px]
+
+  tw-transition-all
+  tw-duration-[250ms]
+
+  md:tw-mt-8
+  md:tw-w-[unset]
+
+  sm:tw-flex-col
+}
+
+.featuresItem:not(:first-of-type) {
+  @apply
+  md:tw-mt-14
+}
+
+.featuresItem:before {
+  background-position: 50%;
+
+  @apply
+  tw-content-['']
+  tw-mr-6
+  tw-p-[36px]
+  tw-rounded-[36px]
+  tw-bg-no-repeat
+  tw-bg-background
+  tw-min-w-[120px]
+  tw-min-h-[120px]
+  tw-max-w-[120px]
+  tw-max-h-[120px]
+
+  sm:tw-mr-0
+}
+
+.featuresItem:nth-child(1) {
+  @apply
+  tw-delay-100
+}
+
+.featuresItem:nth-child(1):before {
+  animation-delay: 200ms;
+}
+
+.featuresItem:nth-child(2) {
+  @apply
+  tw-delay-200
+
+  md:tw-mt-14
+}
+
+.featuresItem:nth-child(2):before {
+  animation-delay: 300ms;
+}
+
+.featuresItem:nth-child(3) {
+  @apply
+  tw-mt-14
+  tw-delay-300
+}
+
+.featuresItem:nth-child(3):before {
+  animation-delay: 400ms;
+}
+
+.featuresItem:nth-child(4) {
+  @apply
+  tw-mt-14
+  tw-delay-[400ms]
+}
+
+.featuresItem:nth-child(4):before {
+  animation-delay: 500ms;
+}
+
+.featuresItemContent {
+  @apply
+  tw-self-start
+
+  md:tw-max-w-[392px]
+  md:tw-w-full
+
+  sm:tw-mt-8
+}
+
+.featuresItemHeadline {
+  @apply
+  tw-font-bold
+  tw-text-2xl
+  tw-leading-[36px]
+  tw-text-text-primary
+
+  sm:tw-text-center
+}
+
+.featuresItemList {
+  @apply
+  tw-mt-4
+  tw-list-none
+}
+
+.featuresItemListItem {
+  @apply
+  tw-text-base
+  tw-leading-[36px]
+  tw-text-text-grey
+  tw-flex
+}
+
+.featuresItemListItem:before {
+  @apply
+  tw-content-['']
+  tw-mt-4
+  tw-mr-4
+  tw-min-w-[19px]
+  tw-h-[5px]
+  tw-rounded-[5px]
+}

@@ -1,0 +1,42 @@
+.exchange {
+  @apply
+  tw-mt-6
+  tw-max-w-3xl
+  tw-flex
+
+  after:tw-content-['']
+  after:tw-flex-1
+}
+
+.depositColumn {
+  @apply
+  tw-flex-1
+  tw-mr-4
+}
+
+.exchangeButton {
+  background: linear-gradient(90deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 50%, rgb(255, 65, 108) 100%);
+
+  @apply
+  tw-flex-1
+  tw-h-[56px]
+}
+
+.exchangeButton:disabled {
+  background: linear-gradient(90deg, rgba(255, 65, 108, 0.3) 0%, rgba(255, 75, 43, 0.3) 50%, rgba(255, 65, 108, 0.3) 100%);
+}
+
+.exchangeButtonIcon {
+  filter: drop-shadow(0 0 2px rgb(0 0 0 / 50%));
+
+  @apply
+  tw-h-5
+  tw-text-text-primary
+}
+
+.exchangePitch {
+  @apply
+  tw-mt-4
+  tw-text-text-secondary
+  tw-text-sm
+}

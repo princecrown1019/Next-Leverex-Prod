@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.watcherExclude": {
+    "**/.next/*/**": true
+  },
+  "search.exclude": {
+    "**/*.next": true
+  }
+}

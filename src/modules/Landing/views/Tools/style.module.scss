@@ -1,0 +1,91 @@
+.tools {
+
+}
+
+.toolsHeader {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-items-center
+  tw-w-full
+}
+
+.toolsHalfs {
+  @apply
+  tw-mt-16
+  tw-flex
+
+  md:tw-flex-col
+
+  sm:tw-mt-14
+}
+
+.toolsHalf {
+  @apply
+  tw-flex-1
+  tw-overflow-hidden
+}
+
+.toolsHalfLeft {
+  @apply
+  tw-mt-24
+  tw-flex
+  tw-justify-end
+
+  md:tw-mt-4
+  md:tw-justify-start
+  md:tw-overflow-hidden
+}
+
+.toolsCarouselContainer {
+  @apply
+  md:tw-mt-14
+
+  sm:tw-mt-8
+}
+
+.toolsCarouselContainer > div > div {
+  @apply
+  md:tw-mx-[60px]
+
+  sm:tw-mx-4
+}
+
+.toolsCarouselItem {
+  @apply
+  tw-h-[580px]
+  tw-flex
+  tw-items-center
+  tw-select-none
+  tw-relative
+
+  md:tw-h-[unset]
+  md:tw-block
+  md:tw-basis-1/2
+  md:tw-min-w-[calc(100%-120px)]
+
+  sm:tw-min-w-[calc(100%-32px)]
+}
+
+.toolsCarouselItemMarginTop {
+  @apply
+  tw-mt-16
+
+  md:tw-mt-0
+}
+
+.toolsCarouselItemMarginLeft {
+  @apply
+  tw-ml-[128px]
+
+  md:tw-ml-0
+}
+
+.toolsCarouselIndicators {
+  @apply
+  tw-justify-start
+  tw-ml-[285px]
+
+  md:tw-ml-0
+  md:tw-justify-center
+}

@@ -1,0 +1,23 @@
+.positionsTableHeader {
+  @apply
+  tw-py-4
+  tw-px-6
+  tw-flex
+  tw-min-w-[600px]
+
+  sm:tw-min-w-[unset]
+}
+
+.positionsTableCancel {
+  @apply
+  tw-min-w-[475px]
+
+  sm:tw-min-w-[unset]
+}
+
+.positionsTableHeaderLabel {
+  @apply
+  tw-flex-1
+  tw-text-xs
+  tw-text-text-secondary
+}

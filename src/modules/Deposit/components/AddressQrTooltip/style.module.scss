@@ -1,0 +1,27 @@
+.addressQrTooltip {
+  @apply
+  tw-py-8
+  tw-px-6
+  tw-pb-14
+  tw-rounded-xl
+}
+
+.addressQrTooltipContent {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-items-center
+}
+
+.addressQrTooltipPitch {
+  @apply
+  tw-text-text-secondary
+  tw-text-xs
+  tw-max-w-[280px]
+  tw-text-center
+}
+
+.addressQrTooltipQr {
+  @apply
+  tw-mt-6
+}

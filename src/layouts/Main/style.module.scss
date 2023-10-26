@@ -1,0 +1,36 @@
+.mainLayout {
+  @apply
+  tw-pt-[76px]
+  tw-pb-4
+  tw-px-4
+  tw-h-full
+  tw-flex
+  tw-flex-col
+
+  md:tw-pt-[86px]
+  md:tw-h-[unset]
+}
+
+.mainLayoutChild {
+  @apply
+  tw-flex-1
+  tw-flex
+}
+
+.mainLayoutHealth {
+  @apply
+  tw-mt-4
+  tw-backdrop-blur-md
+}
+
+@screen md {
+  .mainLayoutHealth {
+    @apply
+    tw-fixed
+    tw-bottom-0
+    tw-left-0
+    tw-right-0
+    tw-z-30
+    tw-rounded-[0px]
+  }
+}

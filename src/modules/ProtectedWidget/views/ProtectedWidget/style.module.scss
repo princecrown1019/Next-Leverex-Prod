@@ -1,0 +1,38 @@
+.protectedWidget {
+  @apply
+  tw-bg-background-contrast-text
+  tw-flex
+  tw-flex-col
+  tw-justify-center
+  tw-items-center
+  tw-absolute
+  tw-top-0
+  tw-bottom-0
+  tw-left-0
+  tw-right-0
+  tw-z-10
+}
+
+.protectedWidgetHeadline {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+  tw-text-center
+  tw-font-normal
+  tw-w-56
+}
+
+.protectedWidgetButton {
+  @apply
+  tw-w-32
+}
+
+.protectedWidgetButtonLogin {
+  @apply
+  tw-mt-8
+}
+
+.protectedWidgetButtonRegister {
+  @apply
+  tw-mt-2
+}

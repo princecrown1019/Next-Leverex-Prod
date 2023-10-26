@@ -1,0 +1,34 @@
+.sessionHealth {
+  @apply
+  tw-py-2
+  tw-px-4
+  tw-flex
+  tw-items-center
+  tw-rounded-xl
+  tw-bg-negative-contrast-text-dark
+}
+
+.sessionHealth:before {
+  @apply
+  tw-content-['']
+  tw-mr-[6px]
+  tw-w-[6px]
+  tw-h-[6px]
+  tw-rounded-full
+}
+
+.sessionHealthOnline:before {
+  @apply
+  tw-bg-positive
+}
+
+.sessionHealthOffline:before {
+  @apply
+  tw-bg-negative
+}
+
+.sessionHealthStatus {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}

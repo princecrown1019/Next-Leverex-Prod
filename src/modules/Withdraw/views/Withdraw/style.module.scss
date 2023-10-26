@@ -1,0 +1,47 @@
+.withdraw {
+  @apply
+  tw-max-w-3xl
+  tw-w-full
+}
+
+.withdrawBalance {
+  @apply
+  tw-text-xs
+  tw-leading-4
+  tw-text-text-secondary
+  tw-w-full
+  tw-text-right
+  tw-block
+}
+
+.withdrawForm {
+  @apply
+  tw-mt-1
+  tw-flex
+}
+
+.withdrawColumn {
+  @apply
+  tw-flex-1
+}
+
+.withdrawColumn:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.withdrawInput:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.withdrawInputAmountEndAdornment {
+  @apply
+  tw-text-xs
+  tw-text-text-secondary
+}
+
+.withdrawButton {
+  @apply
+  tw-mt-6
+}

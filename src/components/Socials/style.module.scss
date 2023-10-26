@@ -1,0 +1,48 @@
+.list {
+  @apply
+  tw-m-0
+  tw-p-0
+  tw-list-none
+}
+
+.socialsList {
+  @apply
+  tw-mt-8
+  tw-flex
+}
+
+.socialsListItem {
+  @apply
+  tw-w-8
+  tw-h-8
+}
+
+.socialsListItem:not(:last-child) {
+  @apply
+  tw-mr-4
+}
+
+.socialsListLink {
+  @apply
+  tw-text-transparent
+  tw-text-[10px]
+  tw-w-full
+  tw-h-full
+  tw-block
+}
+
+
+.socialsListLinkTwitter {
+  @apply
+  tw-bg-[url('/static/media/landing/twitter.svg')]
+}
+
+.socialsListLinkTelegram {
+  @apply
+  tw-bg-[url('/static/media/landing/telegram.svg')]
+}
+
+.socialsListLinkDiscord {
+  @apply
+  tw-bg-[url('/static/media/landing/discord.svg')]
+}

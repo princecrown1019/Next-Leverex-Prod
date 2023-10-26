@@ -1,0 +1,27 @@
+.stats {
+  @apply
+  tw-py-3
+  tw-px-4
+  tw-flex
+  tw-bg-background-paper
+  tw-rounded-2xl
+  tw-overflow-hidden
+  tw-relative
+  tw-whitespace-nowrap
+  tw-overflow-auto
+
+  sm:tw-p-0
+  sm:tw-flex-wrap
+}
+
+.statsItemIndexPrice {
+  @apply
+  tw-min-w-[132px]
+
+  sm:tw-min-w-[50%]
+}
+
+.changeArrow {
+  @apply
+  tw-mr-1
+}

@@ -1,0 +1,23 @@
+.history {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-h-full
+
+  sm:tw-flex-col
+  sm:tw-max-w-xl
+  sm:tw-mx-auto
+}
+
+.dashboardOpenPositions {
+  @apply
+  tw-mt-4
+  tw-flex-1
+  tw-overflow-hidden
+
+  sm:tw-order-2
+  sm:tw-flex
+  sm:tw-flex-col
+  sm:tw-min-h-[400px]
+  sm:tw-max-h-[400px]
+}

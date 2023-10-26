@@ -1,0 +1,91 @@
+.homeContainer {
+  @apply
+  tw-bg-background-paper
+}
+
+.homeContainerInner {
+  @apply
+  tw-relative
+  tw-z-[1]
+}
+
+.headerLinkActive {
+  @apply
+  tw-text-primary
+}
+
+.homeWrapper {
+  @apply
+  tw-mx-auto
+  tw-px-[60px]
+  tw-max-w-[1320px]
+  tw-w-full
+
+  sm:tw-px-4
+}
+
+.homeIntro {
+  @apply
+  tw-pt-[216px]
+
+  sm:tw-pt-[140px]
+}
+
+.homeProducts {
+  @apply
+  tw-mt-14
+
+  md:tw-mt-[36px]
+}
+
+.homeFeatures {
+  @apply
+  tw-pt-24
+  tw-flex
+  tw-flex-col
+  tw-items-center
+
+  md:tw-pt-[90px]
+
+  sm:tw-pt-14
+}
+
+.homeTools {
+  @apply
+  tw-pt-24
+
+  md:tw-pt-[90px]
+
+  sm:tw-pt-14
+}
+
+.homeExplore {
+  @apply
+  tw-mx-auto
+  tw-pt-24
+  tw-flex
+  tw-flex-col
+  tw-items-center
+
+  md:tw-pt-[90px]
+
+  sm:tw-pt-14
+}
+
+.homeBenefits {
+  @apply
+  tw-mt-14
+
+  sm:tw-mt-8
+}
+
+.homeFooter {
+  @apply
+  tw-mt-[120px]
+  tw-z-[1]
+  tw-relative
+
+  md:tw-mt-[90px]
+
+  sm:tw-mt-14
+}

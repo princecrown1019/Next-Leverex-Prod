@@ -1,0 +1,47 @@
+.button {
+  /* tailwind doesn't have support for the "text-shadow" */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+  @apply
+  tw-py-4
+  tw-px-6
+  tw-relative
+  tw-w-full
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-rounded-2xl
+  tw-overflow-hidden
+  tw-bg-primary
+  tw-relative
+  tw-outline-none
+
+  tw-text-base
+  tw-text-text-primary
+  tw-font-bold
+  tw-text-opacity-100
+  tw-leading-6
+
+  disabled:tw-bg-primary-contrast-text-dark
+}
+
+.buttonTransparent {
+  @apply
+  tw-bg-transparent
+  tw-text-primary
+}
+
+.buttonLoading {
+  @apply
+  tw-justify-between
+
+  after:tw-content-['']
+  after:tw-w-4
+  after:tw-h-4
+}
+
+.indicator {
+  @apply
+  tw-w-4
+  tw-h-4
+}

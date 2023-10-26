@@ -1,0 +1,26 @@
+.container {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-overflow-hidden
+}
+
+.slides {
+  @apply
+  tw-flex
+  tw-opacity-0
+  tw-translate-x-[100%]
+
+  tw-ease-in-out
+  tw-transition-all
+  tw-duration-[350ms]
+
+  lg:tw-duration-[550ms]
+
+  md:tw-block
+}
+
+.indicators {
+  @apply
+  tw-mt-6
+}

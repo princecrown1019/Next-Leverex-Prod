@@ -1,0 +1,48 @@
+.tradesHistoryAccordionBodyRow {
+  @apply
+  tw-py-3
+  tw-pr-6
+  tw-pl-14
+  tw-flex
+  tw-items-center
+  tw-relative
+}
+
+.tradesHistoryAccordionBodyRowSeparate {
+  @apply
+  tw-pl-10
+}
+
+//.tradesHistoryAccordionBodyRow > div:nth-child(3) {
+//  @apply
+//
+//  before:tw-content-['']
+//  before:tw-absolute
+//  before:tw-border-l-border
+//  before:tw-border-l-[1px]
+//  before:tw-h-[25%]
+//  before:tw-w-[1px]
+//}
+//
+//.tradesHistoryAccordionBodyRow > div:nth-child(3) > span {
+//  @apply
+//  tw-ml-3
+//}
+
+.tradesHistoryAccordionHeaderValue {
+  @apply
+  tw-flex-1
+  tw-text-xs
+}
+
+.tradesHistoryAccordionHeaderValueMarginRight {
+  @apply
+  tw-mr-3
+  tw-flex-[unset]
+}
+
+.tradesHistoryAccordionHeaderChangeIcon {
+  @apply
+  tw-mr-2
+  tw-w-2
+}

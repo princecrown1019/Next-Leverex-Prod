@@ -1,0 +1,24 @@
+.withdraw {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-flex
+  tw-flex-col
+  tw-justify-between
+}
+
+.withdrawMain {
+  @apply
+  tw-p-6
+}
+
+.withdrawForm {
+  @apply
+  tw-mt-1
+}
+
+.withdrawOngoingTransactions {
+  @apply
+  tw-min-h-[204px]
+  tw-max-h-[calc(100vh-528px)]
+}

@@ -1,0 +1,31 @@
+.staticSection:not(:first-of-type) {
+  @apply
+  tw-mt-8
+}
+
+.staticPitchMarginTop {
+  @apply
+  tw-mt-6
+}
+
+.staticList {
+  @apply
+  tw-mt-1
+  tw-pl-6
+}
+
+.staticListDisc {
+  @apply
+  tw-list-disc
+}
+
+.staticListDecimal {
+  @apply
+  tw-list-decimal
+}
+
+.staticListItem {
+  @apply
+  tw-text-lg
+  tw-text-text-grey-light
+}

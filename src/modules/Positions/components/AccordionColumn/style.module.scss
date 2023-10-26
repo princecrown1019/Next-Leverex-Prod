@@ -1,0 +1,34 @@
+.positionsAccordionColumn {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-items-center
+  tw-justify-start
+}
+
+.positionsAccordionColumn:nth-child(1) {
+  @apply
+  sm:tw-max-w-[128px]
+}
+
+.positionsAccordionColumn:nth-child(2) {
+  @apply
+  tw-flex-[0.75]
+
+  sm:tw-hidden
+}
+
+.positionsAccordionColumn:last-of-type {
+  @apply
+  sm:tw-max-w-[96px]
+}
+
+.positionsAccordionColumnCancel {
+  @apply
+  tw-w-4
+  tw-min-w-[16px]
+  tw-max-w-[24px]
+
+  sm:tw-max-w-[16px]
+  sm:last-of-type:tw-max-w-[16px]
+}

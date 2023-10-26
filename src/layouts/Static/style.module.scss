@@ -1,0 +1,65 @@
+.staticLayout {
+  @apply
+  tw-py-44
+  tw-min-h-[100%]
+  tw-bg-[url(/static/media/static-bg.jpeg)]
+  tw-bg-no-repeat
+  tw-bg-cover
+  tw-bg-fixed
+  tw-bg-right
+  tw-bg-[#21212E]
+}
+
+.staticLayoutBackButton {
+  @apply
+  tw-fixed
+  tw-p-2
+  tw-top-24
+  tw-left-32
+  tw-rounded-xl
+  tw-backdrop-blur-2xl
+
+  md:tw-top-8
+  md:tw-left-8
+}
+
+@screen sm {
+  .staticLayoutBackButton {
+    @apply
+    tw-left-4
+  }
+}
+
+.staticLayoutBackButtonIcon {
+  @apply
+  tw-h-6
+  tw-w-6
+  tw-fill-text-primary
+}
+
+.staticLayoutHeadline {
+  @apply
+  tw-text-6xl
+  tw-text-text-primary
+  tw-font-bold
+  tw-leading-[84px]
+  tw-text-center
+
+  sm:tw-text-4xl
+  sm:tw-leading-[44px]
+}
+
+.staticLayoutWrapper {
+  @apply
+  tw-mx-auto
+  tw-max-w-[920px]
+  tw-w-full
+}
+
+.staticLayoutContent {
+  @apply
+  tw-mt-24
+  tw-px-16
+
+  sm:tw-px-4
+}

@@ -1,0 +1,15 @@
+.tradesAccordionHeader {
+  overflow: unset;
+
+  @apply
+  tw-w-full
+  tw-text-left
+}
+
+.tradesAccordionHeaderVisible {
+  @apply
+  tw-sticky
+  tw-top-0
+  tw-bg-background-input
+  tw-z-10
+}

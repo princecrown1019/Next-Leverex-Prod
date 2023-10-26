@@ -1,0 +1,96 @@
+.ladderRow {
+  @apply
+  tw-flex
+  tw-pr-1
+}
+
+.ladderRow:not(:first-of-type) {
+  @apply
+  tw-mt-1
+}
+
+.ladderRowMid {
+  @apply
+  tw-pb-1
+  tw-border-b-[1px]
+  tw-border-background-input
+}
+
+.ladderRowCell {
+  @apply
+  tw-h-8
+  tw-min-w-[46px]
+  tw-leading-[12px]
+  tw-w-full
+  tw-rounded-lg
+  tw-text-text-primary
+  tw-text-xs
+  tw-flex
+  tw-flex-col
+  tw-justify-center
+  tw-items-center
+  tw-bg-background-input
+}
+
+.ladderRowCellSide {
+  @apply
+  tw-min-w-[42px]
+  tw-max-w-[15%]
+}
+
+.ladderRowCellSideAsks {
+  background-image: linear-gradient(45deg, rgba(255, 3, 135, 0.035) 0%, rgba(254, 120, 3, 0.035) 100%)
+}
+
+.ladderRowCellSideAsksFilled {
+  background-image: linear-gradient(45deg, rgba(255, 3, 135, 0.2) 0%, rgba(254, 120, 3, 0.2) 100%)
+}
+
+.ladderRowCellSideAsksActive {
+  background-image: linear-gradient(45deg, rgba(255, 3, 135, 0.65) 0%, rgba(254, 120, 3, 0.65) 100%)
+}
+
+.ladderRowCellSideBids {
+  background-image: linear-gradient(45deg, rgba(59, 227, 0, 0.035) 0%, rgba(0, 178, 255, 0.035) 100%);
+}
+
+.ladderRowCellSideBidsFilled {
+  background-image: linear-gradient(45deg, rgba(59, 227, 0, 0.2) 0%, rgba(0, 178, 255, 0.2) 100%);
+}
+
+.ladderRowCellSideBidsActive {
+  background-image: linear-gradient(45deg, rgba(59, 227, 0, 0.65) 0%, rgba(0, 178, 255, 0.65) 100%);
+}
+
+.ladderRowCellQty {
+  @apply
+  tw-font-medium
+}
+
+.ladderRowCellQtyAskActive {
+  background-image: linear-gradient(45deg, rgba(255, 3, 135, 0.05) 0%, rgba(254, 120, 3, 0.05) 100%)
+}
+
+.ladderRowCellQtyBidActive {
+  background-image: linear-gradient(45deg, rgba(59, 227, 0, 0.05) 0%, rgba(0, 178, 255, 0.05) 100%);
+}
+
+
+.ladderRowCellQtyPrefix {
+  @apply
+  tw-text-[8px]
+  tw-leading-snug
+}
+
+.ladderRowCellQtyValue {
+  @apply
+  tw-whitespace-nowrap
+  tw-max-w-[85%]
+  tw-text-ellipsis
+  tw-overflow-hidden
+}
+
+.ladderRowCell:not(:last-of-type) {
+  @apply
+  tw-mr-1
+}

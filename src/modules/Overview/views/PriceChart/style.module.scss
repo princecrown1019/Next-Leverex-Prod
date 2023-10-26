@@ -1,0 +1,18 @@
+.overviewChart {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-absolute
+  tw-top-0
+}
+
+.overviewChartLoading {
+  @apply
+  tw-z-[1]
+  tw-absolute
+  tw-top-0
+  tw-bottom-0
+  tw-left-0
+  tw-right-0
+  tw-bg-background-paper
+}

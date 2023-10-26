@@ -1,0 +1,65 @@
+.dashboard {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-h-full
+
+  md:tw-flex-col
+  md:tw-mx-auto
+
+  s:tw-max-w-xl
+}
+
+.dashboardRow {
+  @apply
+  tw-flex
+
+  md:tw-mt-4
+  md:tw-order-1
+}
+
+.dashboardProductSummary {
+  @apply
+  tw-mr-4
+
+  md:tw-hidden
+}
+
+.dashboardBalancesSummary {
+  @apply
+  tw-border-border
+  tw-border-r-[1px]
+
+  s:tw-border-r-0
+  s:tw-border-b-[1px]
+}
+
+.dashboardTransactionsSummary {
+  @apply
+  tw-min-w-[337px]
+
+  s:tw-min-w-max
+}
+
+.dashboardProfitLossSummary {
+  @apply
+  tw-mt-4
+  tw-min-h-[65.59px]
+
+  md:tw-min-h-[unset]
+}
+
+.dashboardOpenPositions {
+  @apply
+  tw-mt-4
+  tw-flex-1
+  tw-overflow-hidden
+  tw-min-h-[250px]
+
+  md:tw-min-h-[unset]
+  md:tw-order-2
+  md:tw-flex
+  md:tw-flex-col
+  md:tw-min-h-[400px]
+  md:tw-max-h-[400px]
+}

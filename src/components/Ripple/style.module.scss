@@ -1,0 +1,20 @@
+.ripples {
+  @apply
+  tw-absolute
+  tw-top-0
+  tw-left-0
+  tw-bottom-0
+  tw-right-0
+}
+
+.ripple {
+  // tailwind works unexpected by adding "tw-scale-0" option.
+  transform: scale(0);
+
+  @apply
+  tw-rounded-full
+  tw-absolute
+  tw-opacity-10
+  tw-animate-ripple
+  tw-bg-white
+}

@@ -1,0 +1,12 @@
+.dropdownArrow {
+  @apply
+  tw-h-4
+  tw-w-4
+  tw-transition-transform
+  tw-duration-200
+}
+
+.dropdownArrowOpen {
+  @apply
+  tw-rotate-180
+}

@@ -1,0 +1,26 @@
+.whitelistAddress {
+  @apply
+  tw-flex
+  tw-max-w-3xl
+  tw-w-full
+}
+
+.whitelistAddressColumn {
+  @apply
+  tw-flex-1
+}
+
+.whitelistAddressColumn:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.whitelistInput:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.whitelistAddressButton {
+  @apply
+  tw-mt-6
+}

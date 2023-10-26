@@ -1,0 +1,103 @@
+.protectedLayout {
+  @apply
+  tw-pt-[76px]
+  tw-pb-4
+  tw-px-4
+  tw-h-full
+  tw-flex
+
+  md:tw-mt-3
+  md:tw-h-[unset]
+  md:tw-flex-col
+}
+
+.protectedLayoutNavContainer {
+  @apply
+  tw-mr-4
+  tw-rounded-2xl
+  tw-bg-background-paper
+  tw-max-w-[300px]
+  tw-w-full
+  tw-flex-1
+  tw-overflow-auto
+
+  md:tw-hidden
+}
+
+.protectedLayoutNav {
+  @apply
+  tw-p-4
+  tw-border-t-border
+  tw-border-t-[1px]
+}
+
+.protectedLayoutNavList {
+  @apply
+  tw-w-full
+  tw-list-none
+}
+
+.protectedLayoutNavItem {
+  @apply
+  tw-w-full
+}
+
+.protectedLayoutNavItem:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}
+
+.protectedLayoutNavLink {
+  @apply
+  tw-p-4
+  tw-w-full
+  tw-rounded-md
+  tw-font-medium
+  tw-text-sm
+  tw-text-text-secondary
+  tw-overflow-hidden
+  tw-flex
+  tw-items-center
+
+  group-hover:tw-text-text-primary
+  group-hover:tw-bg-background-input
+}
+
+.protectedLayoutNavLinkActive {
+  @apply
+  tw-bg-background-input
+  tw-text-primary
+}
+
+.protectedLayoutNavLinkActive > .protectedLayoutSidebarIcon {
+  @apply
+  tw-fill-primary
+}
+
+.protectedLayoutSidebarIcon {
+  @apply
+  tw-mr-3
+  tw-w-6
+  tw-h-6
+
+  group-hover:tw-fill-text-primary
+}
+
+.protectedLayoutContent {
+  @apply
+  tw-mx-auto
+  tw-max-w-[1092px]
+  tw-rounded-2xl
+  tw-bg-background-paper
+  tw-flex-1
+  tw-overflow-auto
+
+  md:tw-overflow-hidden
+  md:tw-mx-0
+  md:tw-overflow-auto
+}
+
+.protectedLayoutContentWithoutBg {
+  @apply
+  tw-bg-transparent
+}

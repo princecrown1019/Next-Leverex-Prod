@@ -1,0 +1,44 @@
+.trade {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-rounded-2xl
+  tw-bg-background-paper
+  tw-relative
+  tw-overflow-hidden
+}
+
+.tradeTabs {
+  @apply
+  tw-block
+}
+
+.tradeTab {
+  @apply
+  tw-flex-1
+}
+
+.tradeInner {
+  @apply
+  tw-pt-6
+  tw-pb-4
+  tw-px-4
+  tw-flex-1
+  tw-overflow-auto
+  tw-flex
+  tw-flex-col
+  tw-justify-between
+
+  md:tw-overflow-hidden
+}
+
+@media (min-width: 841px) and (min-height: 751px) {
+  .tradeInner {
+    max-height: calc(100vh - 200px);
+  }
+}
+
+.tradeInnerHealth {
+  @apply
+  tw-mt-4
+}

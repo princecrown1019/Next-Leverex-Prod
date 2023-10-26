@@ -1,0 +1,18 @@
+.dashboardBalances {
+  @apply
+  tw-flex-1
+  tw-flex
+  tw-flex-col
+}
+
+.dashboardBalancesRow {
+  @apply
+  tw-flex
+  tw-flex-1
+}
+
+.dashboardBalancesRow:not(:last-of-type) {
+  @apply
+  tw-border-b-[1px]
+  tw-border-border
+}

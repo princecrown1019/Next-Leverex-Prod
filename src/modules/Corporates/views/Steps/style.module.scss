@@ -1,0 +1,82 @@
+.stepsList {
+  @apply
+  tw-mt-[120px]
+  tw-flex
+  tw-flex-wrap
+  tw-flex-col
+  tw-w-full
+  tw-justify-between
+
+  md:tw-flex-col
+  md:tw-items-center
+
+  sm:tw-mt-14
+}
+
+.stepsListOnScreen li {
+  @apply
+  tw-opacity-100
+  tw-translate-y-0
+}
+
+.stepsListOnScreen > li:before {
+  background-size: 0;
+
+  @apply
+  tw-animate-increaseDecrease
+}
+
+.stepsItem {
+  @apply
+  tw-mx-auto
+}
+
+.stepsItemFees {
+  @apply
+  before:tw-bg-[url(/static/media/landing/one-icon.svg)]
+}
+
+.stepsItemFees li:before {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-long-from
+  tw-to-long-to
+}
+
+.stepsItemLeverage {
+  @apply
+  before:tw-bg-[url(/static/media/landing/two-icon.svg)]
+}
+
+.stepsItemLeverage li:before {
+  @apply
+  tw-bg-primary
+}
+
+.stepsItemFlexibility {
+  @apply
+  before:tw-bg-[url(/static/media/landing/three-icon.svg)]
+}
+
+.stepsItemFlexibility li:before {
+  @apply
+  tw-bg-default
+}
+
+.stepsItemListItem {
+  @apply
+  tw-text-base
+  tw-leading-[36px]
+  tw-text-text-grey
+  tw-flex
+}
+
+.stepsItemListItem:before {
+  @apply
+  tw-content-['']
+  tw-mt-4
+  tw-mr-4
+  tw-min-w-[19px]
+  tw-h-[5px]
+  tw-rounded-[5px]
+}

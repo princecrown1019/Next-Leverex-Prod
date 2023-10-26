@@ -1,0 +1,14 @@
+.tradesHistoryLiquidationOrDefault {
+  @apply
+  tw-text-xxs
+}
+
+.tradesHistoryDefaulted {
+  @apply
+  tw-text-default
+}
+
+.tradesHistoryLiquidated {
+  @apply
+  tw-text-warning
+}

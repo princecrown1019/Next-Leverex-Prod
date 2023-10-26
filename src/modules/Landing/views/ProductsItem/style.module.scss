@@ -1,0 +1,94 @@
+.productsItem {
+  background-color: rgba(33, 33, 46, 0.5);
+
+  @apply
+  tw-p-6
+  tw-flex
+  tw-w-full
+  tw-max-w-[392px]
+  tw-items-center
+  tw-rounded-2xl
+  tw-border-[1px]
+  tw-border-border-light-text-contrast
+
+  md:tw-max-w-full
+
+  sm:tw-p-4
+}
+
+.productsItem:not(:last-of-type) {
+  @apply
+  tw-mr-3
+
+  md:tw-mr-0
+}
+
+.productsItem:not(:first-of-type) {
+  @apply
+  md:tw-mt-4
+}
+
+.productsItemComingSoon {
+  @apply
+  tw-opacity-30
+}
+
+.productsItemIcon {
+  @apply
+  tw-mr-4
+  tw-w-14
+  tw-h-14
+
+  sm:tw-w-[46px]
+  sm:tw-h-[46px]
+}
+
+.productsItemContent {
+  @apply
+  tw-w-full
+}
+
+.productsItemRow {
+  @apply
+  tw-flex
+  tw-justify-between
+}
+
+.productsItemName {
+  @apply
+  tw-text-lg
+  tw-leading-[28px]
+  tw-text-text-primary
+  tw-font-medium
+
+  sm:tw-text-base
+  sm:tw-leading-[24px]
+}
+
+.productsItemChange {
+  @apply
+  tw-text-sm
+  tw-leading-[28px]
+
+  sm:tw-leading-[24px]
+}
+
+.productsItemTicker {
+  @apply
+  tw-text-base
+  tw-leading-[24px]
+  tw-text-text-secondary
+
+  sm:tw-text-sm
+  sm:tw-leading-[24px]
+}
+
+.productsItemPrice {
+  @apply
+  tw-text-xl
+  tw-leading-[24px]
+  tw-text-text-primary
+
+  sm:tw-text-sm
+  sm:tw-leading-[24px]
+}

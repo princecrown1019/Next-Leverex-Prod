@@ -1,0 +1,60 @@
+.resizable {
+  @apply
+  tw-relative
+}
+
+.draggable {
+  @apply
+  tw-p-1
+  tw-rounded-lg
+  tw-bg-transparent
+  tw-z-[2]
+  tw-block
+  tw-absolute
+  tw-flex-col
+}
+
+.draggableTop {
+  @apply
+  tw-w-full
+  tw-h-3
+  tw-top-0
+  tw-left-0
+  tw-right-0
+  tw-translate-y-[-50%]
+  tw-justify-evenly
+
+  hover:tw-cursor-ns-resize
+}
+
+.draggableIcon {
+  @apply
+  tw-p-1
+  tw-rounded-lg
+  tw-bg-border
+  tw-flex
+  tw-z-[1]
+  tw-absolute
+  tw-flex-col
+}
+
+.draggableIconTop {
+  @apply
+  tw-flex-row
+  tw-w-10
+  tw-top-0
+  tw-left-1/2
+  tw-translate-x-[-50%]
+  tw-translate-y-[-50%]
+  tw-justify-evenly
+
+  hover:tw-cursor-ns-resize
+}
+
+.dot {
+  @apply
+  tw-w-[0.175rem]
+  tw-h-[0.175rem]
+  tw-rounded-full
+  tw-bg-background-paper
+}

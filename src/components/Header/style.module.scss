@@ -1,0 +1,221 @@
+.header  {
+  @apply
+  tw-py-4
+  tw-px-16
+  tw-border-b-[1px]
+  tw-border-b-border-light-text-contrast
+  tw-justify-center
+  tw-fixed
+  tw-top-0
+  tw-left-0
+  tw-right-0
+  tw-z-40
+  tw-backdrop-blur-md
+  tw-h-[88px]
+
+  tw-transition-[height]
+  tw-ease-in-out
+  tw-duration-300
+
+  md:tw-h-[68px]
+  md:tw-backdrop-blur-xl
+  md:tw-overflow-hidden
+
+  md:tw-py-2
+  md:tw-pb-2
+  md:tw-px-4
+}
+
+.headerBefore {
+  @apply
+  tw-fixed
+  tw-bottom-0
+  tw-left-0
+  tw-right-0
+  tw-z-30
+}
+
+.headerMain {
+  @apply
+  tw-h-[68px]
+}
+
+.headerOpen {
+  @apply
+  md:tw-h-full
+}
+
+.headerWrapper {
+  @apply
+  tw-mx-auto
+  tw-max-w-[1200px]
+  tw-w-full
+  tw-flex
+  tw-items-center
+
+  md:tw-h-full
+  md:tw-flex-col
+  md:tw-justify-start
+}
+
+.headerWrapperLeft {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-justify-between
+
+  md:tw-w-full
+  md:tw-min-h-[51px]
+}
+
+.headerWrapperLeftRight {
+  @apply
+  tw-hidden
+  tw-items-center
+
+  md:tw-flex
+}
+
+.headerBurgerMenu {
+  @apply
+  tw-h-[45px]
+  tw-items-center
+}
+
+
+.headerBrand {
+  @apply
+  tw-w-[120px]
+  tw-h-[28px]
+  tw-text-[10px]
+
+  md:tw-mr-4
+  md:tw-w-[106px]
+  md:tw-h-[22px]
+}
+
+.headerBrandLink {
+  @apply
+  tw-bg-[url('/static/media/brand.svg')]
+  tw-bg-no-repeat
+  tw-text-transparent
+  tw-no-underline
+  tw-select-none
+  tw-w-full
+  tw-h-full
+  tw-block
+}
+
+.headerNav {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-justify-between
+}
+
+.headerNavList {
+  @apply
+  tw-flex
+  tw-list-none
+
+  md:tw-h-full
+  md:tw-flex-col
+  md:tw-items-center
+  md:tw-justify-center
+}
+
+.headerButtonLink {
+  @apply
+  tw-w-[128px]
+  tw-transition-all
+
+  md:tw-hidden
+}
+
+.headerButtonLink:hover {
+  box-shadow: 0 0 24px 1px rgba(0, 132, 255, 0.56)
+}
+
+.headerButtonLinkRegister {
+  @apply
+  tw-mr-4
+}
+
+.headerButtonLinkMobile {
+  @apply
+  tw-mr-8
+  tw-hidden
+
+  md:tw-flex
+  md:tw-mr-6
+  md:tw-p-3
+  md:tw-text-sm
+  md:tw-w-[96px]
+}
+
+.footer {
+  @apply
+  tw-pb-4
+  tw-w-full
+  tw-justify-between
+  tw-items-center
+  tw-hidden
+
+  md:tw-flex
+
+  sm:tw-flex-col
+}
+
+.footerSocials {
+  @apply
+  tw-mt-0
+}
+
+.footerText {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+}
+
+.footerLink {
+  @apply
+  tw-no-underline
+
+  hover:tw-underline
+}
+
+.footerEndInner {
+  @apply
+  sm:tw-flex-col
+  sm:tw-items-center
+}
+
+.footerEndRight {
+  @apply
+  tw-flex
+  tw-items-center
+
+  sm:tw-mt-6
+}
+
+.footerEndIcon {
+  @apply
+  tw-mr-4
+  tw-fill-text-primary
+}
+
+.footerEndLink {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.versionString {
+  @apply
+  tw-rounded-lg
+  tw-text-xs
+  tw-text-text-secondary
+  tw-py-1
+  tw-px-2
+  tw-mx-2
+}

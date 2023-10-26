@@ -1,0 +1,22 @@
+.deviceKeysSearchBar {
+  @apply
+  tw-pt-6
+  tw-bg-background-paper
+  tw-translate-y-[calc(-100%-24px)]
+  tw-sticky
+  tw-top-0
+  tw-z-[1]
+
+  tw-transition-all
+  tw-duration-300
+}
+
+.deviceKeysSearchBarVisible {
+  @apply
+  tw-translate-y-[-24px]
+}
+
+.deviceKeysSearchBarCloseButton {
+  @apply
+  tw-bg-primary-contrast-text
+}

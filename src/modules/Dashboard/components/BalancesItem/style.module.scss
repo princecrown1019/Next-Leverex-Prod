@@ -1,0 +1,39 @@
+.balancesItem {
+  @apply
+  tw-p-6
+  tw-px-8
+  tw-flex-1
+  tw-flex
+  tw-flex-col
+  tw-justify-center
+
+  sm:tw-p-6
+  sm:tw-px-6
+  sm:tw-justify-start
+
+  xs:tw-p-4
+  xs:tw-px-4
+}
+
+.balancesItem:not(:last-of-type) {
+  @apply
+  tw-border-r-[1px]
+  tw-border-border
+}
+
+.balancesItemLabel {
+  @apply
+  tw-text-sm
+
+  sm:tw-text-xxs
+}
+
+.balancesItemValue {
+  @apply
+  tw-mt-0.5
+  tw-text-lg
+  tw-font-bold
+  tw-text-text-primary
+
+  sm:tw-text-base
+}

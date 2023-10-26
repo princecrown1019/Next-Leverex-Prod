@@ -1,0 +1,46 @@
+.statsItem {
+  @apply
+  tw-px-6
+
+  first-of-type:tw-pl-0
+  last-of-type:tw-pr-0
+
+  sm:tw-py-6
+  sm:tw-min-w-[50%]
+  sm:tw-border-b-[1px]
+  sm:tw-border-b-border
+
+  sm:first-of-type:tw-pl-6
+  sm:last-of-type:tw-pr-6
+  sm:last-of-type:tw-border-0
+
+  xs:tw-py-4
+  xs:tw-px-4
+  xs:first-of-type:tw-pl-4
+  xs:last-of-type:tw-pr-4
+}
+
+.statsItem:not(:last-of-type) {
+  @apply
+  tw-border-r-[1px]
+  tw-border-border
+
+  sm:tw-border-r-0
+  sm:tw-border-r-transparent
+
+  sm:odd:tw-border-r-[1px]
+  sm:odd:tw-border-border
+}
+
+.statsItem:nth-child(5n) {
+  @apply
+  sm:odd:tw-border-b-0
+}
+
+.statsItemValue {
+  @apply
+  tw-mt-0.5
+  tw-text-base
+  tw-flex
+  tw-items-center
+}

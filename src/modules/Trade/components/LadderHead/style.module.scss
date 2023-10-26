@@ -1,0 +1,25 @@
+.ladderHead {
+  @apply
+  tw-flex
+}
+
+.ladderHeadCell {
+  @apply
+  tw-min-w-[56px]
+  tw-w-full
+  tw-flex
+  tw-justify-center
+  tw-text-xs
+  tw-text-text-secondary
+}
+
+.ladderHeadCell:not(:last-of-type) {
+  @apply
+  tw-mr-1
+}
+
+.ladderHeadCellSide {
+  @apply
+  tw-min-w-[42px]
+  tw-max-w-[15%]
+}

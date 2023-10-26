@@ -1,0 +1,104 @@
+.textareaContainer {
+  @apply
+  tw-py-2
+  tw-px-4
+  tw-bg-background-input
+  tw-rounded-lg
+  tw-relative
+  tw-overflow-hidden
+  tw-flex
+  tw-items-start
+  tw-justify-between
+
+  focus-within:after:tw-bg-primary
+  focus-within:after:tw-w-full
+
+  after:tw-content-['']
+  after:tw-absolute
+  after:tw-bg-transparent
+  after:tw-h-[2px]
+  after:tw-w-0
+  after:tw-bottom-0
+  after:tw-left-0
+  after:tw-right-0
+  after:tw-mx-auto
+
+  after:tw-transition-all
+  after:tw-duration-150
+}
+
+.textareaContainerInvalid {
+  @apply
+  after:tw-bg-negative
+  after:tw-w-full
+
+  focus-within:after:tw-bg-negative
+}
+
+.textareaContainerLeft {
+  @apply
+  tw-flex-1
+}
+
+.textareaLabel {
+  @apply
+  tw-text-[10px]
+  tw-leading-[14px]
+  tw-block
+  tw-flex-1
+  tw-text-text-secondary
+  tw-scale-[1.6]
+  tw-translate-y-[9px]
+  tw-origin-top-left
+  tw-transition-all
+  tw-w-max
+}
+
+.textareaFocusedLabel {
+  @apply
+  tw-scale-100
+  tw-translate-y-[2px]
+}
+
+.textareaLabelInvalid {
+  @apply
+  tw-text-negative
+}
+
+.textareaWrapper {
+  @apply
+  tw-mt-[2px]
+  tw-flex
+  tw-justify-between
+  tw-items-center
+  tw-relative
+}
+
+.textarea {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+  tw-bg-transparent
+  tw-caret-primary
+  tw-flex-1
+  tw-z-[1]
+  tw-resize-none
+
+  placeholder:tw-text-text-secondary-contrast-text
+}
+
+.textareaInvalid {
+  @apply
+  tw-caret-negative
+}
+
+.textareaWithEndAdornment {
+  @apply
+  tw-pr-4
+}
+
+.textareaPasteEndAdornment {
+  @apply
+  tw-mt-2
+  tw-bg-primary-contrast-text
+}

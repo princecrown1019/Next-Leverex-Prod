@@ -1,0 +1,20 @@
+.networkDropdownOption {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.networkDropdownOptionName {
+  @apply
+  tw-mr-1
+  tw-text-base
+  tw-text-text-primary
+  tw-block
+}
+
+.networkDropdownIconSelected {
+  @apply
+  tw-mr-2
+  tw-h-6
+  tw-w-6
+}

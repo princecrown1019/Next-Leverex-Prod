@@ -1,0 +1,61 @@
+.getStartedModal {
+  @apply
+  tw-mt-6
+}
+
+.getStartedModalPitchBold {
+  @apply
+  tw-text-primary
+}
+
+.getStartedModalPicture {
+  @apply
+  tw-mt-8
+  tw-h-48
+
+  xs:tw-h-[15%]
+}
+
+.getStartedModalPitch {
+  @apply
+  tw-mt-0
+}
+
+.getStartedModalAgreement {
+  @apply
+  tw-mt-10
+}
+
+.getStartedModalAgreementCheckbox {
+  @apply
+  tw-mt-1
+  tw-mr-2
+  tw-max-h-[1rem]
+  tw-min-w-[1rem]
+  tw-max-w-[1rem]
+
+  disabled:tw-cursor-pointer
+}
+
+.getStartedModalAgreementLink {
+  @apply
+  tw-relative
+  tw-z-[1]
+}
+
+.getStartedModalButton {
+  @apply
+  tw-mt-6
+}
+
+.getStartedModalButtonDisabled {
+  @apply
+  tw-opacity-30
+}
+
+.getStartedModalLink {
+  @apply
+  tw-mt-4
+  tw-text-center
+  tw-text-sm
+}

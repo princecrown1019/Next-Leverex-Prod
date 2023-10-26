@@ -1,0 +1,32 @@
+.addressDropdownOption {
+  @apply
+  tw-py-1
+  tw-flex
+
+  hover:tw-bg-border
+}
+
+.addressDropdownSelected {
+  @apply
+  tw-flex
+  tw-w-full
+}
+
+.addressDropdownOptionName {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+}
+
+.addressDropdownFooterButton {
+  @apply
+  tw-mt-2
+  tw-py-3
+  tw-px-2
+  tw-text-base
+  tw-text-primary
+  tw-rounded-md
+
+  hover:tw-bg-primary-contrast-text
+  hover:tw-no-underline
+}

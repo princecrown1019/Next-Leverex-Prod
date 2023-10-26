@@ -1,0 +1,16 @@
+.linkBadge {
+  @apply
+  tw-px-2
+  tw-py-1
+  tw-block
+  tw-overflow-hidden
+  tw-rounded-lg
+  tw-justify-center
+  tw-items-center
+  tw-text-xs
+  tw-font-medium
+  tw-text-primary
+  tw-bg-primary-contrast-text-dark
+
+  hover:tw-no-underline
+}

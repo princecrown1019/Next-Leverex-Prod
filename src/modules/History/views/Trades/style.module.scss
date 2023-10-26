@@ -1,0 +1,16 @@
+.historyTrades {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-h-full
+  tw-flex-col
+}
+
+.historyTradesList {
+  @apply
+  tw-pb-24
+  tw-flex
+  tw-flex-col
+  tw-flex-1
+  tw-overflow-auto
+}

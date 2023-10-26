@@ -1,0 +1,68 @@
+.statements {
+  @apply
+  tw-max-w-3xl
+  tw-w-full
+  tw-flex
+}
+
+.statementsColumn {
+  @apply
+  tw-mr-4
+  tw-flex-1
+}
+
+.statementsInput:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.statementsOption {
+  @apply
+  tw-py-1
+  tw-block
+  tw-text-base
+  tw-text-text-primary
+  tw-text-left
+}
+
+.statementsOptionSelected {
+  @apply
+  tw-py-0
+}
+
+.statementsButton {
+  @apply
+  tw-mt-6
+}
+
+.statementsButtonDownlaodHidden {
+  @apply
+  tw-h-0
+  tw-w-0
+  tw-opacity-0
+}
+
+.statementsDateRangePickerContainer {
+  @apply
+  tw-bg-background-input
+  tw-border-[1px]
+  tw-border-border
+  tw-rounded-lg
+  tw-absolute
+
+  before:tw-content-['']
+  before:tw-absolute
+  before:tw-w-3
+  before:tw-h-3
+  before:tw-border-[1px]
+  before:tw-border-t-transparent
+  before:tw-border-l-border
+  before:tw-border-b-border
+  before:tw-border-r-transparent
+  before:tw-top-5
+  before:tw-left-0
+  before:tw-rotate-45
+  before:tw-translate-x-[-50%]
+  before:tw-bg-background-input
+  before:tw-z-[1]
+}

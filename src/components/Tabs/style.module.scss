@@ -1,0 +1,42 @@
+.tabs {
+  @apply
+  tw-relative
+  tw-flex
+}
+
+.tabsWrapper {
+  @apply
+  tw-flex
+  tw-w-full
+  tw-flex-[0]
+}
+
+.tabsWrapper:after {
+  @apply
+  tw-border-b-[1px]
+  tw-border-b-border
+}
+
+.tabsWrapperRounded > button:first-of-type {
+  @apply
+  tw-rounded-tl-2xl
+}
+
+.divider {
+  @apply
+  tw-h-full
+  tw-w-[1px]
+  tw-bg-border
+}
+
+.indicator {
+  @apply
+  tw-absolute
+  tw-bottom-0
+  tw-left-0
+  tw-h-[2px]
+  tw-bg-primary
+
+  tw-ease-in-out
+  tw-duration-150
+}

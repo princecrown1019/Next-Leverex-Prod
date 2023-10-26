@@ -1,0 +1,44 @@
+.overview {
+  @apply
+  tw-h-full
+  tw-w-full
+}
+
+.overviewTabs {
+  @apply
+  tw-flex
+
+  after:tw-content-['']
+  after:tw-block
+  after:tw-flex-1
+  after:tw-border-b-[1px]
+  after:tw-border-b-border
+}
+
+.overviewTab {
+  @apply
+  tw-w-24
+}
+
+.overviewContent {
+  @apply
+  tw-h-[calc(100%-44px)]
+  tw-overflow-hidden
+  tw-flex-1
+  tw-border-l-[1px]
+  tw-border-l-border
+
+  md:tw-border-l-0
+}
+
+.overviewChart {
+  @apply
+  tw-h-full
+  tw-relative
+}
+
+.overviewChartHidden {
+  @apply
+  tw-h-0
+  tw-overflow-hidden
+}

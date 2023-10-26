@@ -1,0 +1,16 @@
+.productSelectorItem {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-text-text-primary
+  tw-text-sm
+
+  disabled:tw-opacity-30
+}
+
+.productSelectorItemIcon {
+  @apply
+  tw-mr-4
+  tw-w-8
+  tw-h-8
+}

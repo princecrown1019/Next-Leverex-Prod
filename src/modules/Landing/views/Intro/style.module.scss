@@ -1,0 +1,185 @@
+.intro {
+  @apply
+  tw-w-full
+  tw-flex
+
+  md:tw-flex-col
+}
+
+.introHalf {
+  @apply
+  tw-flex-1
+}
+
+.introHalfContent {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-items-end
+  tw-justify-center
+
+  md:tw-items-center
+}
+
+.introHalfContentInner {
+  @apply
+  tw-w-full
+  tw-pl-[calc((100vw-1200px)/2)]
+
+  md:tw-pl-0
+  md:tw-flex
+  md:tw-flex-col
+  md:tw-items-center
+}
+
+.introHeadline {
+  @apply
+  tw-font-bold
+  tw-leading-[82px]
+  tw-text-text-primary
+  tw-max-w-[490px]
+  tw-text-[64px]
+  tw-min-h-[164px]
+
+  md:tw-text-center
+
+  sm:tw-leading-[40px]
+  sm:tw-max-w-[275px]
+  sm:tw-text-[32px]
+  sm:tw-min-h-[80px]
+}
+
+
+.introPitch {
+  @apply
+  tw-mt-6
+  tw-text-xl
+  tw-text-text-primary
+
+  md:tw-text-center
+
+  sm:tw-text-sm
+}
+
+.introHalfPresentation {
+  @apply
+  tw-max-w-[909px]
+  tw-min-h-[520px]
+  tw-h-full
+  tw-overflow-hidden
+
+  lg:tw-min-h-[calc(100vw*0.36)]
+
+  xl:tw-min-h-[calc(100vw*0.355)]
+  xl:tw-max-w-[unset]
+
+  md:tw-mt-12
+  md:tw-max-w-full
+  md:tw-px-[60px]
+  md:tw-h-full
+  md:tw-min-h-[unset]
+
+  sm:tw-mt-8
+  sm:tw-px-4
+}
+
+@screen md {
+  .introHalfPresentation {
+    @apply
+    md:tw-px-[60px]
+  }
+}
+
+@screen sm {
+  .introHalfPresentation {
+    @apply
+    sm:tw-px-4
+  }
+}
+
+.introPresentation {
+  @apply
+  tw-p-4
+  tw-pr-0
+  tw-opacity-0
+  tw-translate-x-[100%]
+  tw-rounded-[28px]
+  tw-rounded-r-none
+  tw-bg-white-contrast-text
+  tw-leading-none
+
+  tw-transition-all
+  tw-ease-in-out
+  tw-duration-700
+
+  md:tw-p-2
+  md:tw-pr-2
+  md:tw-rounded-2xl
+  md:tw-rounded-r-2xl
+}
+
+.introPresentationLoaded {
+  @apply
+  tw-opacity-100
+  tw-translate-x-0
+}
+
+.introPresentationImage {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-object-cover
+  tw-object-left
+  tw-rounded-l-2xl
+
+  md:tw-rounded-l-xl
+  md:tw-rounded-r-xl
+}
+
+.introPartnersList {
+  @apply
+  tw-mt-24
+  tw-p-0
+  tw-flex
+  tw-items-center
+  tw-list-none
+
+  md:tw-mt-12
+  md:tw-justify-center
+
+  sm:tw-mt-8
+}
+
+.introPartnersListItem:not(:last-of-type) {
+  @apply
+  tw-mr-14
+
+  sm:tw-mr-4
+}
+
+.introPartnersListLink {
+  background-position: 50%;
+
+  @apply
+  tw-block
+  tw-text-transparent
+  tw-select-none
+  tw-bg-no-repeat
+
+  sm:tw-w-[calc(100vw/3-32px)]
+  sm:tw-bg-contain
+}
+
+.introPartnersAuthEid {
+  @apply
+  tw-bg-[url(/static/media/landing/auth-eid-brand.svg)]
+  tw-w-[114.47px]
+  tw-h-[36px]
+}
+
+.introPartnersLiquidNetwork {
+  @apply
+  tw-bg-[url(/static/media/landing/liquid-network-brand.svg)]
+  tw-w-[115.2px]
+  tw-h-[35.78px]
+}

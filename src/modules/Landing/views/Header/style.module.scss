@@ -1,0 +1,49 @@
+.header {
+  @apply
+  tw-px-[60px]
+  tw-flex
+  tw-items-center
+  tw-border-b-border-light-text-contrast
+
+  sm:tw-px-4
+}
+
+.header > div {
+  @apply
+  tw-mx-auto
+  tw-max-w-[1200px]
+}
+
+.headerBrand {
+  @apply
+  tw-mr-8
+
+  md:tw-mr-4
+}
+
+.headerLinkWrapper {
+  @apply
+  tw-mx-0
+}
+
+.headerLink {
+  @apply
+  tw-px-6
+  tw-text-sm
+  tw-h-full
+  tw-text-text-primary
+
+  group-hover:tw-text-primary
+
+  md:tw-text-5xl
+  md:tw-font-bold
+  md:tw-leading-[82px]
+
+  sm:tw-text-xl
+  sm:tw-leading-[64px]
+}
+
+.headerLinkFirst {
+  @apply
+  md:tw-mt-4
+}

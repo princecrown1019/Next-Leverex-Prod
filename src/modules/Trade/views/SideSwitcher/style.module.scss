@@ -1,0 +1,74 @@
+.marketSideSwitcher {
+  @apply
+  tw-flex
+  tw-flex-1
+}
+
+.marketSideContainer {
+  @apply
+  tw-p-[2px]
+  tw-rounded-xl
+  tw-flex-1
+  tw-bg-border
+}
+
+.marketSideContainer:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.marketSideContainerShort {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-short-from
+  tw-to-short-to
+}
+
+.marketSideContainerLong {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-long-from
+  tw-to-long-to
+}
+
+.marketSide {
+  @apply
+  tw-p-3
+  tw-rounded-[11px]
+  tw-bg-background-paper
+  tw-bg-gradient-to-tr
+}
+
+.marketSideLong {
+  @apply
+  tw-from-long-contrast-text-from
+  tw-to-long-contrast-text-to
+}
+
+.marketSideShort {
+  @apply
+  tw-from-short-contrast-text-from
+  tw-to-short-contrast-text-to
+}
+
+.marketSideLabel {
+  @apply
+  tw-block
+  tw-text-xs
+  tw-text-left
+  tw-w-fit
+}
+
+.marketSideLabelInvisible {
+  @apply
+  tw-text-text-secondary
+}
+
+.marketSidePrice {
+  @apply
+  tw-block
+  tw-text-base
+  tw-text-left
+  tw-font-medium
+  tw-w-fit
+}

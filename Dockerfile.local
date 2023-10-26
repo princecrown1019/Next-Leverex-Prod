@@ -1,0 +1,8 @@
+FROM node:14
+
+WORKDIR /build
+COPY . /build
+COPY entrypoint.sh /build
+COPY .env-docker /build
+
+COPY ["bash", "entrypoint.sh"]

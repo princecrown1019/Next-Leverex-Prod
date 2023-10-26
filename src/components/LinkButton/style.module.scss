@@ -1,0 +1,44 @@
+.buttonLink {
+  /* tailwind doesn't have support for the "text-shadow" */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+  @apply
+  tw-py-4
+  tw-relative
+  tw-overflow-hidden
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-text-base
+  tw-text-text-primary
+  tw-font-bold
+  tw-no-underline
+  tw-bg-primary
+  tw-rounded-2xl
+  tw-no-underline
+  tw-w-full
+  tw-outline-none
+
+  tw-transition-[box-shadow]
+  tw-ease-in-out
+  tw-duration-100
+
+  hover:tw-no-underline
+}
+
+.buttonLinkDisabled {
+  @apply
+  tw-cursor-default
+  tw-bg-primary-contrast-text-dark
+}
+
+.buttonLinkTransparent {
+  @apply
+  tw-bg-transparent
+  tw-text-primary
+}
+
+.buttonLinkTransparent.buttonLinkDisabled {
+  @apply
+  tw-bg-transparent
+}

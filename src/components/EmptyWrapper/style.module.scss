@@ -1,0 +1,18 @@
+.emptyWrapper {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-flex
+  tw-flex-1
+  tw-justify-center
+  tw-items-center
+
+  sm:tw-h-[unset]
+}
+
+.emptyWrapperText {
+  @apply
+  tw-text-xs
+  tw-text-center
+  tw-text-text-secondary
+}

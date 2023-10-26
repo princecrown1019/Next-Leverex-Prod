@@ -1,0 +1,30 @@
+.tableHead {
+  @apply
+  tw-px-6
+  tw-py-3
+  tw-flex
+}
+
+.tableHeadValue {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-text-text-secondary
+}
+
+.tableHeadCellLabel {
+  @apply
+  tw-mr-1
+  tw-text-text-secondary
+}
+
+.tableHeadCellIcon {
+  @apply
+  tw-w-3.5
+  tw-h-3.5
+}
+
+.tableHeadCellIconUp {
+  @apply
+  tw-rotate-180
+}

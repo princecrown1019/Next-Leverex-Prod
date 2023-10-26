@@ -1,0 +1,27 @@
+.qrCodeContainer {
+  @apply
+  tw-py-4
+  tw-px-4
+  tw-rounded
+  tw-bg-white
+}
+
+.qrCodeContainerLoading {
+  @apply
+  tw-bg-transparent
+}
+
+.qrCodeLoadingContainer {
+  @apply
+  tw-flex
+  tw-justify-center
+  tw-items-center
+}
+
+.qrCodeLoading {
+  @apply
+  tw-h-8
+  tw-w-8
+  tw-border-t-text-secondary
+  tw-border-l-text-secondary
+}

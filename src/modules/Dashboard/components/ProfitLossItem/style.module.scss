@@ -1,0 +1,52 @@
+.profitLossItem {
+  @apply
+  tw-px-6
+
+  first-of-type:tw-pl-0
+  last-of-type:tw-pr-0
+
+  s:tw-py-6
+  s:tw-min-w-[50%]
+  s:tw-border-b-[1px]
+  s:tw-border-b-border
+
+  s:first-of-type:tw-pl-6
+  s:last-of-type:tw-pr-6
+  s:last-of-type:tw-border-0
+
+  xs:tw-p-4
+  xs:tw-py-4
+  xs:tw-px-4
+  xs:first-of-type:tw-pl-4
+  xs:last-of-type:tw-pr-4
+}
+
+.profitLossItem:not(:last-of-type) {
+  @apply
+  tw-border-r-[1px]
+  tw-border-border
+
+  s:tw-border-r-0
+  s:tw-border-r-transparent
+
+  s:odd:tw-border-r-[1px]
+  s:odd:tw-border-border
+}
+
+.profitLossItem:nth-child(5n) {
+  @apply
+  s:odd:tw-border-b-0
+}
+
+.profitLossItemValue {
+  @apply
+  tw-mt-0.5
+  tw-text-base
+  tw-flex
+  tw-items-center
+}
+
+.profitLossChangeArrow {
+  @apply
+  tw-mr-1
+}

@@ -1,0 +1,60 @@
+.faqText {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}
+
+.faqText:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.faqSection:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.faqHeadline {
+  @apply
+  tw-font-bold
+  tw-text-sm
+  tw-text-text-primary
+}
+
+.faqTimestamp {
+  @apply
+  tw-mt-2
+  tw-text-xs
+  tw-text-text-primary
+  tw-italic
+  tw-underline
+  tw-block
+}
+
+.faqList {
+  @apply
+  tw-mt-1
+  tw-pl-4
+  tw-w-full
+}
+
+.faqListDisc {
+  @apply
+  tw-list-disc
+}
+
+.faqListDecimal {
+  @apply
+  tw-list-decimal
+}
+
+.faqListItem {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}
+
+.faqListItem:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}

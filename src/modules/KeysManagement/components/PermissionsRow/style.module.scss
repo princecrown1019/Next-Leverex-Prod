@@ -1,0 +1,36 @@
+.deviceKeyPermissionsRow {
+  @apply
+  tw-w-full
+  tw-flex
+  tw-justify-between
+  tw-items-center
+}
+
+.deviceKeyPermissionsRow:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.deviceKeyPermissionsRowLabel {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+}
+
+.deviceKeyPermissionsRowCheckboxes {
+  @apply
+  tw-flex
+}
+
+.deviceKeyPermissionsRowPermission {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-text-sm
+  tw-text-text-secondary
+}
+
+.deviceKeyPermissionsRowPermission:not(:last-of-type) {
+  @apply
+  tw-mr-8
+}

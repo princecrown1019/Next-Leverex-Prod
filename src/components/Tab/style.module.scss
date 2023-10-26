@@ -1,0 +1,44 @@
+.tab {
+  @apply
+  tw-h-[42px]
+  tw-flex
+  tw-border-[1px]
+  tw-border-border
+  tw-justify-center
+  tw-items-center
+  tw-text-xs
+  tw-text-text-secondary
+}
+
+.tab:not(:first-of-type) {
+  @apply
+  tw-ml-[-1px]
+}
+
+.tabActive {
+  @apply
+  tw-font-medium
+  tw-text-primary
+  tw-bg-primary-contrast-text
+}
+
+.tabActive > .tabTag {
+  @apply
+  tw-text-primary
+  tw-bg-primary-contrast-text-dark
+}
+
+.tabLabelMarginRight {
+  @apply
+  tw-mr-1
+}
+
+.tabTag {
+  @apply
+  tw-p-1
+  tw-rounded
+  tw-text-xs
+  tw-leading-[12px]
+
+  disabled:tw-opacity-100
+}

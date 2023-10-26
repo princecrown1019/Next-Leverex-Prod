@@ -1,0 +1,121 @@
+.overviewDetails {
+  @apply
+  tw-flex
+  tw-h-full
+}
+
+.overviewDetailsPart {
+  @apply
+  tw-flex-1
+  tw-py-6
+  tw-px-4
+  tw-pl-4
+  tw-flex
+  tw-flex-col
+  tw-justify-center
+  tw-items-center
+  tw-overflow-auto
+}
+
+.overviewDetailsPartRight {
+  @apply
+  tw-pl-4
+}
+
+.overviewDetailsPartLeftInner {
+  @apply
+  tw-max-w-sm
+}
+
+.overviewDetailsPartRightInner {
+  @apply
+  tw-max-w-sm
+  tw-w-full
+}
+
+.overviewDetailsProduct {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.overviewDetailsProductIcon {
+  @apply
+  tw-mr-4
+  tw-h-8
+  tw-w-8
+}
+
+.overviewDetailsProductName {
+  @apply
+  tw-text-lg
+  tw-font-bold
+}
+
+.overviewDetailsDescription {
+  @apply
+  tw-text-sm
+}
+
+.overviewDetailsDescriptionMain {
+  @apply
+  tw-mt-6
+  tw-text-xs
+  tw-text-text-primary
+}
+
+.overviewDetailsDescriptionSecondary {
+  @apply
+  tw-mt-4
+  tw-text-xs
+  tw-text-text-secondary
+}
+
+.overviewDetailsLinks {
+  @apply
+  tw-mt-12
+  tw-flex
+}
+
+.overviewDetailsLink {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-bg-background-input
+  tw-text-text-secondary
+  tw-text-sm
+  tw-py-1
+  tw-px-2
+  tw-rounded-md
+
+  hover:tw-no-underline
+}
+
+.overviewDetailsLink:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.overviewDetailsLinkIcon {
+  @apply
+  tw-mr-2
+  tw-w-3
+  tw-h-3
+}
+
+.overviewDetailsAssetTag {
+  @apply
+  tw-text-xxs
+}
+
+@media screen and (max-height: 945.98px) {
+  .overviewDetailsPart {
+    @apply
+    tw-justify-center
+  }
+
+  .overviewDetailsLinks {
+    @apply
+    tw-mt-6
+  }
+}

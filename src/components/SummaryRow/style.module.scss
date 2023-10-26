@@ -1,0 +1,23 @@
+.summaryRow {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-justify-between
+}
+
+.summaryRow:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}
+
+.summaryRowLabel {
+  @apply
+  tw-text-sm
+  tw-text-text-secondary
+}
+
+.summaryRowValue {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+}

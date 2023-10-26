@@ -1,0 +1,26 @@
+.positionsAccordionHeader {
+  @apply
+  tw-py-3
+  tw-px-6
+  tw-flex
+  tw-items-center
+
+  sm:tw-hidden
+}
+
+.positionsAccordionHeaderValue {
+  @apply
+  tw-flex-1
+  tw-text-xs
+}
+
+.positionsAccordionHeaderValueMargin {
+  @apply
+  tw-mr-2
+  tw-flex-[0]
+}
+
+.positionsAccordionHeaderNetLabel {
+  @apply
+  tw-mr-2
+}

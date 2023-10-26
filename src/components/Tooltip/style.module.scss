@@ -1,0 +1,95 @@
+.tooltipWrapper {
+  @apply
+  tw-inline-block
+  tw-relative
+}
+
+.tooltip {
+  @apply
+  tw-p-2
+  tw-absolute
+  tw-rounded
+  tw-left-1/2
+  tw-translate-x-[-50%]
+  tw-border-[1px]
+  tw-border-border
+  tw-z-10
+  tw-bg-background-input-contrast-text
+  tw-backdrop-blur-lg
+  tw-scale-0
+  tw-translate-y-[-50%]
+
+
+  tw-transition-all
+  tw-ease-in-out
+  tw-opacity-0
+  tw-duration-200
+
+  before:tw-content-['']
+  before:tw-absolute
+  before:tw-w-3
+  before:tw-h-3
+  before:tw-border-[1px]
+  before:tw-bg-background-input
+  before:tw-pointer-events-none
+}
+
+.tooltipVisible {
+  @apply
+  tw-opacity-100
+  tw-scale-100
+  tw-translate-y-0
+}
+
+.tooltipTop {
+  @apply
+  tw-translate-y-[-50%]
+
+  before:tw-bottom-0
+  before:tw-left-1/2
+  before:tw-translate-x-[-50%]
+  before:tw-translate-y-1/2
+  before:tw-rotate-45
+  before:tw-border-t-transparent
+  before:tw-border-l-transparent
+  before:tw-border-border
+}
+
+.tooltipRight {
+  @apply
+  tw-top-[-4]
+
+  before:tw-top-[100%]
+  before:tw-mt-[calc(-4px)]
+  before:tw-border-r-border
+}
+
+.tooltipBottom {
+  @apply
+  tw-mt-5
+
+  before:tw-top-0
+  before:tw-left-1/2
+  before:tw-translate-x-[-50%]
+  before:tw-translate-y-[-50%]
+  before:tw-rotate-45
+  before:tw-border-b-transparent
+  before:tw-border-r-transparent
+  before:tw-border-border
+}
+
+.tooltipLeft {
+  @apply
+  tw-left-auto
+  tw-right-[calc(100%+4px)]
+  tw-top-1/2
+  tw-translate-y-[-50%]
+  tw-translate-x-0
+
+  before:tw-left-auto
+  before:tw-right-[calc(-8px)]
+  before:tw-top-1/2
+  before:tw-translate-y-[-50%]
+  before:tw-translate-x-0
+  before:tw-border-l-border
+}

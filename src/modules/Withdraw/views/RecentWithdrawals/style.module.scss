@@ -1,0 +1,20 @@
+.ongoingWithdrawals {
+  @apply
+  tw-flex
+  tw-flex-col
+}
+
+.ongoingWithdrawalsHeadline {
+  @apply
+  tw-ml-6
+}
+
+.ongoingWithdrawalsDivider {
+  @apply
+  tw-mt-4
+}
+
+.ongoingWithdrawalsTable {
+  @apply
+  tw-flex-1
+}

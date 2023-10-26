@@ -1,0 +1,76 @@
+.dashboardProduct {
+  @apply
+  tw-p-6
+  tw-flex
+  tw-flex-col
+  tw-justify-between
+  tw-min-w-[330px]
+
+  sm:tw-hidden
+}
+
+.dashboardProductLabel {
+  @apply
+  tw-text-base
+}
+
+.dashboardProductValue {
+  @apply
+  tw-mt-2
+  tw-flex
+  tw-items-center
+}
+
+.dashboardProductIcon {
+  @apply
+  tw-mr-3
+  tw-w-8
+  tw-h-8
+  tw-rounded-full
+}
+
+.dashboardProductName {
+  @apply
+  tw-text-2xl
+  tw-text-text-primary
+  tw-font-bold
+}
+
+.dashboardProductLinks {
+  @apply
+  tw-flex
+}
+
+.dashboardProductLink {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-text-base
+
+  hover:tw-no-underline
+}
+
+.dashboardProductLink:not(:last-of-type) {
+  @apply
+  tw-mr-6
+}
+
+.dashboardProductLinkIconContainer {
+  @apply
+  tw-mr-3
+  tw-h-14
+  tw-w-14
+  tw-rounded-full
+  tw-border-[1px]
+  tw-border-primary
+  tw-items-center
+  tw-flex
+  tw-justify-center
+}
+
+.dashboardProductLinkIcon {
+  @apply
+  tw-h-6
+  tw-w-6
+  tw-fill-primary
+}

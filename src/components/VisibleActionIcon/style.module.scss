@@ -1,0 +1,16 @@
+.visibleActionIcon {
+  @apply
+  tw-w-4
+  tw-h-4
+  tw-rounded-sm
+  tw-bg-border
+  tw-flex
+  tw-items-center
+  tw-justify-center
+}
+
+.visibleActionIconSymbol {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}

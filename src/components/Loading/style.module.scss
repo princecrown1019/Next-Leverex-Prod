@@ -1,0 +1,11 @@
+.indicator {
+  @apply
+  tw-w-4
+  tw-h-4
+  tw-border-2
+  tw-border-text-primary
+  tw-border-r-transparent
+  tw-border-b-transparent
+  tw-rounded-full
+  tw-animate-spin
+}

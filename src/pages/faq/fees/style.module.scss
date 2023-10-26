@@ -1,0 +1,54 @@
+.faqText {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}
+
+.faqText:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.faqTable {
+  @apply
+  tw-mt-4
+  tw-w-full
+  tw-table
+  tw-border-collapse
+  tw-border-transparent
+}
+
+.faqTableHead {
+  @apply
+  tw-table-header-group
+}
+
+.faqTableBody {
+  @apply
+  tw-table-row-group
+}
+
+.faqTableRow {
+  @apply
+  tw-table-row
+  tw-outline-0
+  tw-align-middle
+}
+
+.faqTableCellHead {
+  @apply
+  tw-font-bold
+  tw-text-text-primary
+  tw-text-xs
+  tw-leading-[24px]
+  tw-text-left
+}
+
+.faqTableCellBody {
+  @apply
+  tw-pt-0.5
+  tw-min-w-[65px]
+  tw-text-text-primary
+  tw-text-xs
+  tw-leading-[24px]
+}

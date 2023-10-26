@@ -1,0 +1,18 @@
+.promptHeadline {
+  @apply
+  tw-max-w-sm
+  tw-break-words
+}
+
+.promptButton {
+  @apply
+  tw-mt-8
+}
+
+.promptButtonButton {
+  @apply
+  tw-pt-6
+  tw-text-text-secondary
+  tw-text-base
+  tw-w-full
+}

@@ -1,0 +1,13 @@
+.positionsHeader {
+  @apply
+  tw-py-3
+  tw-px-6
+  tw-flex
+}
+
+.positionsHeaderLabel {
+  @apply
+  tw-flex-1
+  tw-text-xs
+  tw-text-text-secondary
+}

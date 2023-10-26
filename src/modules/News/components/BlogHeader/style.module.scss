@@ -1,0 +1,76 @@
+.blogHeader {
+  @apply
+  tw-max-w-[1300px]
+}
+
+.blogHeaderHeadline {
+  @apply
+  tw-font-bold
+  tw-leading-[82px]
+  tw-text-text-primary
+  tw-text-[64px]
+
+  sm:tw-leading-[40px]
+  sm:tw-text-[32px]
+}
+
+.blogHeaderPreview {
+  @apply
+  tw-mt-2
+  tw-text-text-secondary
+  tw-text-base
+}
+
+.blogHeaderMetadata {
+  @apply
+  tw-mt-6
+  tw-flex
+  tw-items-center
+}
+
+.blogHeaderAuthor {
+  @apply
+  tw-mr-4
+  tw-text-primary
+  tw-text-base
+
+  sm:tw-text-sm
+}
+
+.blogHeaderTime {
+  @apply
+  tw-mr-6
+  tw-text-text-secondary
+  tw-text-base
+
+  sm:tw-text-sm
+}
+
+.blogHeaderSocial {
+  background-size: 80%;
+
+  @apply
+  tw-mr-4
+  tw-h-6
+  tw-w-6
+  tw-text-transparent
+  tw-text-xxs
+  tw-bg-center
+  tw-bg-no-repeat
+}
+
+.blogHeaderSocialTwitter {
+  @apply
+  tw-bg-[url(/static/media/landing/twitter-raw.svg)]
+}
+
+.blogHeaderSocialFacebook {
+  @apply
+  tw-bg-[url(/static/media/landing/facebook-raw.svg)]
+}
+
+.blogHeaderCopyLinkButtonIcon {
+  @apply
+  tw-scale-[75%]
+  tw-fill-primary
+}

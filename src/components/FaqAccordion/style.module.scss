@@ -1,0 +1,65 @@
+.faqAccordion {
+  @apply
+  tw-w-full
+  tw-border-b-[1px]
+  tw-border-b-border
+  tw-overflow-hidden
+  tw-h-14
+
+  tw-transition-all
+  tw-duration-300
+  tw-ease-in-out
+}
+
+.faqAccordion:first-of-type {
+  @apply
+  tw-border-t-[1px]
+  tw-border-t-border
+}
+
+.faqAccordionHeader {
+  @apply
+  tw-py-4
+  tw-h-14
+  tw-w-full
+  tw-flex
+  tw-justify-between
+  tw-items-center
+}
+
+.faqAccordionHeadline {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+  tw-font-medium
+}
+
+.faqAccordionArrowIcon {
+  @apply
+  tw-mr-2
+  tw-h-4
+  tw-w-4
+  tw-rotate-[-90deg]
+
+  tw-transition-all
+  tw-duration-200
+  tw-ease-in-out
+}
+
+.faqAccordionArrowIconVisible {
+  @apply
+  tw-rotate-0
+}
+
+.faqAccordionBody {
+  @apply
+  tw-w-full
+  tw-overflow-hidden
+}
+
+.faqAccordionBodyContent {
+  @apply
+  tw-pt-4
+  tw-pb-8
+  tw-w-full
+}

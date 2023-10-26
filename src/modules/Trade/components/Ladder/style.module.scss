@@ -1,0 +1,37 @@
+.ladder {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-flex-1
+  tw-overflow-hidden
+}
+
+.ladderHead {
+  @apply
+  tw-mt-2
+}
+
+.ladderBody {
+  @apply
+  tw-mt-2
+  tw-rounded-lg
+  tw-overflow-y-auto
+  tw-overflow-x-hidden
+}
+
+.ladderBody::-webkit-scrollbar {
+  display: inline-block;
+  width: 5px;
+}
+
+.ladderBody::-webkit-scrollbar-track {
+  @apply
+  tw-bg-transparent
+  tw-rounded-md
+}
+
+.ladderBody::-webkit-scrollbar-thumb {
+  @apply
+  tw-bg-background-input
+  tw-rounded-md
+}

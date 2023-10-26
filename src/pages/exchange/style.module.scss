@@ -1,0 +1,157 @@
+.exchange {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-flex-1
+
+  lg:tw-flex-row
+
+  mdH:tw-min-h-[750px]
+
+  md:tw-flex-col
+  md:tw-mx-auto
+
+  sm:tw-max-w-xl
+}
+
+.exchangeStatsTablet {
+  @apply
+  tw-hidden
+}
+
+.exchangeMainContent {
+  @apply
+  tw-flex
+  tw-w-full
+    tw-h-full
+
+  md:tw-mt-4
+  md:tw-flex
+
+  sm:tw-flex-col
+}
+
+.exchangeWidget {
+  @apply
+  tw-mr-4
+  tw-max-w-[300px]
+  tw-w-full
+
+  md:tw-max-w-xl
+  md:tw-h-full
+}
+
+.exchangeWidgetTrade {
+  @apply
+  tw-min-w-[300px]
+
+  md:tw-h-[670px]
+
+  sm:tw-min-w-0
+}
+
+.exchangeWidgetTradeData {
+  @apply
+  md:tw-mr-0
+
+  sm:tw-mt-4
+  sm:tw-min-w-0
+}
+
+.exchangeMain {
+  @apply
+  tw-w-full
+  tw-flex
+  tw-flex-col
+  tw-overflow-hidden
+
+  md:tw-overflow-auto
+
+  sm:tw-mt-4
+}
+
+.exchangeMainBottom {
+  @apply
+  tw-mt-4
+  tw-flex
+  tw-h-full
+  tw-flex-1
+  tw-overflow-hidden
+
+  md:tw-mt-0
+}
+
+.exchangeMainRight {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-w-full
+  tw-overflow-hidden
+}
+
+.exchangeOverview {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-flex-col
+  tw-overflow-hidden
+  tw-min-h-[42px]
+
+  md:tw-flex-[unset]
+  md:tw-overflow-auto
+  md:tw-min-h-[350px]
+  md:tw-h-[calc(100vw*0.8)]
+  md:tw-max-h-[450px]
+}
+
+.exchangePositionsResizable {
+  @apply
+  tw-h-1/2
+  tw-min-h-[186px]
+  tw-h-[30vh]
+  tw-max-h-[50vh]
+  tw-flex
+  tw-flex-col
+}
+
+.exchangePositions {
+  @apply
+  tw-flex-1
+  tw-overflow-hidden
+
+  md:tw-overflow-visible
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@screen md {
+  .exchangeStats {
+    @apply
+    tw-hidden
+  }
+
+  .exchangeStatsTablet {
+    @apply
+    tw-flex
+    tw-mt-4
+  }
+}
+
+@screen sm {
+  .exchangeStats {
+    @apply
+    tw-flex
+  }
+
+  .exchangeStatsTablet {
+    @apply
+    tw-hidden
+  }
+}

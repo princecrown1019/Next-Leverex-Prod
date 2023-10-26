@@ -1,0 +1,56 @@
+.estimates {
+  @apply
+  tw-p-4
+  tw-rounded-2xl
+  tw-border-border
+  tw-border-[1px]
+  tw-bg-background-input
+}
+
+.estimatesRow {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-justify-between
+}
+
+.estimatesRow:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}
+
+.estimatesLabel {
+  @apply
+  tw-text-sm
+  tw-text-text-secondary
+}
+
+.estimatesLoading {
+  @apply
+  tw-w-3.5
+  tw-h-3.5
+}
+
+.estimatesValueWithIcon {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.estimatesValueIcon {
+  @apply
+  tw-mr-2
+  tw-w-3
+  tw-h-3
+}
+
+.estimatesValue {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+}
+
+.estimatesChangeIcon {
+  @apply
+  tw-mr-1
+}

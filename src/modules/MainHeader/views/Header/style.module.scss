@@ -1,0 +1,77 @@
+.headerMain {
+  @apply
+  tw-px-4
+  tw-py-2
+  tw-flex
+  tw-items-center
+}
+
+.headerMain > div {
+  @apply
+  tw-m-0
+  tw-max-w-full
+}
+
+.headerMainWithoutBorder {
+  @apply
+  tw-border-transparent
+
+  md:tw-border-b-border-light-text-contrast
+}
+
+.headerMainBrand {
+  @apply
+  tw-mr-32
+  tw-w-[106px]
+  tw-h-[22px]
+}
+
+.headerMainLink {
+  @apply
+  tw-px-4
+  tw-text-text-secondary
+
+  group-hover:tw-text-primary
+
+  md:tw-text-text-primary
+}
+
+.headerMainLinkIcon {
+  @apply
+  tw-mr-3
+  tw-h-6
+  tw-w-6
+
+  group-hover:tw-fill-primary
+
+  md:tw-hidden
+}
+
+.headerMainLinkActive {
+  @apply
+  tw-text-primary
+}
+
+.headerMainLinkWrapperTopMargin {
+  @apply
+  md:tw-mt-6
+}
+
+.headerMainLinkActive > .headerMainLinkIcon {
+  @apply
+  tw-fill-primary
+}
+
+.headerMainLinkDesktopOnly {
+  @apply
+  tw-flex
+
+  md:tw-hidden
+}
+
+.headerMainLinkMobileOnly {
+  @apply
+  tw-hidden
+
+  md:tw-flex
+}

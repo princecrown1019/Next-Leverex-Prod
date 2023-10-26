@@ -1,0 +1,21 @@
+.staticSection:not(:first-of-type) {
+  @apply
+  tw-mt-8
+}
+
+.staticPitchMarginTop {
+  @apply
+  tw-mt-6
+}
+
+.staticPitchFooter {
+  @apply
+  tw-mt-6
+  tw-text-center
+  tw-text-text-secondary
+}
+
+.onboardingForm {
+  @apply
+  tw-mt-10
+}

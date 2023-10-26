@@ -1,0 +1,37 @@
+.history {
+  @apply
+  tw-h-full
+  tw-flex
+  tw-flex-col
+  tw-flex-1
+  tw-rounded-2xl
+  tw-bg-background-paper
+}
+
+.historyHeader {
+  @apply
+  tw-flex
+}
+
+.historyTabs {
+  @apply
+  tw-block
+}
+
+.historyTab {
+  @apply
+  tw-w-32
+}
+
+.historyHeaderEnd {
+  @apply
+  tw-px-2
+  tw-flex
+  tw-flex-1
+  tw-items-center
+  tw-justify-between
+  tw-border-b-[1px]
+  tw-border-b-border
+
+  before:tw-content-['']
+}

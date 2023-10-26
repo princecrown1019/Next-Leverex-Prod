@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto, san-serif';
+    font-weight: 400;
+    src: url('/static/fonts/Roboto-Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url('/static/fonts/Roboto-Medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('/static/fonts/Roboto-Bold.woff2') format('woff2');
+  }
+}
+
+*, button {
+  @apply
+  tw-outline-none
+}
+
+input, textarea {
+  @apply
+  focus:tw-outline-none
+}
+
+html {
+  @apply
+  tw-text-text-primary
+  tw-bg-background
+  tw-h-full
+}
+
+body {
+  @apply
+  tw-h-full
+  tw-overscroll-none
+}
+
+#__next {
+  @apply
+  tw-h-full
+}
+
+div {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+
+  /* for Chrome, Safari, and Opera */
+  &::-webkit-scrollbar {
+    @apply
+    tw-hidden
+  }
+}
+
+a {
+  @apply
+  tw-text-primary
+  tw-no-underline
+}

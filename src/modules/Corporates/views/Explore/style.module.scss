@@ -1,0 +1,96 @@
+.explore {
+}
+
+.exploreButtonLink {
+  @apply
+  tw-mt-8
+  tw-mx-auto
+  tw-w-[240px]
+  tw-transition-all
+}
+
+.exploreButtonLink:hover {
+  box-shadow: 0 0 24px 1px rgba(0, 132, 255, 0.56)
+}
+
+.exploreCarousel {
+  @apply
+  tw-mt-24
+  tw-w-full
+
+  sm:tw-mt-8
+}
+
+.exploreCarouselItem {
+  @apply
+  tw-min-w-[900px]
+  tw-max-w-[900px]
+  tw-h-[350px]
+  tw-opacity-[0.35]
+  tw-scale-[80%]
+
+  tw-transition-all
+  tw-duration-200
+}
+
+.exploreSlidePresentation {
+  @apply
+  tw-p-8
+  tw-h-full
+  tw-w-full
+  tw-rounded-[28px]
+  tw-leading-none
+  tw-select-none
+  tw-text-left
+
+  hover:tw-bg-white-lighter-contrast-text
+
+  md:tw-p-2
+  md:tw-rounded-2xl
+}
+
+.exploreCarouselItem:not(:last-of-type) {
+  @apply
+  tw-mr-14
+
+  md:tw-mr-0
+
+  sm:tw-mr-0
+}
+
+.exploreCarouselItemActive {
+  @apply
+  tw-opacity-100
+  tw-scale-100
+}
+
+.exploreCarouselItemHeadline {
+  @apply
+  tw-text-2xl
+  tw-font-bold
+  tw-text-text-primary
+}
+
+.exploreCarouselItemDescription {
+  @apply
+  tw-mt-6
+  tw-text-base
+  tw-leading-[36px]
+  tw-text-text-grey
+}
+
+@screen md {
+  .exploreCarouselItem {
+    @apply
+    md:tw-w-[calc(100%-120px)]
+    md:tw-min-w-[calc(100%-120px)]
+  }
+}
+
+@screen sm {
+  .exploreCarouselItem {
+    @apply
+    tw-w-[calc(100%-32px)]
+    tw-min-w-[calc(100%-32px)]
+  }
+}

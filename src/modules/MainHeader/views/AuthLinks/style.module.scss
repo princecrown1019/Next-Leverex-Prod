@@ -1,0 +1,20 @@
+.headerAuthLink {
+  @apply
+  tw-hidden
+
+  md:tw-block
+}
+
+.headerEndLoginButton {
+  @apply
+  tw-mr-4
+}
+
+.headerEndLogoutButton {
+  @apply
+  tw-w-6
+  tw-h-6
+  tw-flex
+  tw-justify-center
+  tw-items-center
+}

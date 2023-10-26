@@ -1,0 +1,88 @@
+.newsItemLayout {
+  @apply
+  tw-pt-44
+  tw-min-h-[100%]
+  tw-bg-[url(/static/media/static-bg.jpeg)]
+  tw-bg-no-repeat
+  tw-bg-cover
+  tw-bg-fixed
+  tw-bg-right
+  tw-bg-[#21212E]
+}
+
+.newsItemLayoutWrapper {
+  @apply
+  tw-px-[60px]
+  tw-mx-auto
+  tw-max-w-[820px]
+  tw-w-full
+  tw-flex
+  tw-flex-col
+}
+
+.newsItemLayoutContent {
+  @apply
+  tw-mt-24
+  tw-px-16
+  tw-text-justify
+
+  sm:tw-px-4
+}
+
+.newsItemLayoutContent h2 {
+  @apply
+  tw-font-bold
+  tw-text-3xl
+}
+
+.newsItemLayoutContent h2 {
+  @apply
+  tw-mt-8
+}
+
+.newsItemLayoutContent p {
+  @apply
+  tw-text-text-grey
+}
+
+.newsItemLayoutContent > figure {
+  @apply
+  tw-mt-4
+  tw-text-text-grey
+  tw-inline
+}
+
+.newsItemLayoutContent figcaption {
+  @apply
+  tw-mt-1
+  tw-text-text-grey
+}
+
+
+.newsItemLayoutContent strong {
+  @apply
+  tw-text-text-primary
+}
+
+.newsItemLayoutContent > p:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.newsItemFooter {
+  @apply
+  tw-mt-[140px]
+}
+
+.newsItemHeaderImg {
+  @apply
+  tw-mt-16
+  tw-object-cover
+  tw-flex-1
+  tw-max-h-[320px]
+  tw-mx-auto
+  tw-max-w-[800px]
+  tw-w-full
+  tw-rounded-2xl
+  tw-overflow-hidden
+}

@@ -1,0 +1,47 @@
+.systemHealth {
+
+  @apply
+  tw-bg-background-input
+  tw-py-2
+  tw-px-4
+  tw-mt-2
+  tw-rounded-xl
+  tw-border-[1px]
+  tw-border-transparent
+  tw-text-text-secondary
+  tw-text-xs
+}
+
+.dot {
+  border-radius: 100%;
+
+  @apply
+  tw-w-[6px]
+  tw-h-[6px]
+  tw-mr-1
+}
+
+.content {
+  @apply
+  tw-flex
+  tw-justify-end
+  tw-items-center
+  tw-cursor-pointer
+  tw-w-fit
+  tw-relative
+}
+
+.operational {
+  @apply
+  tw-bg-positive
+}
+
+.closed {
+  @apply
+  tw-bg-[yellow]
+}
+
+.damaged {
+  @apply
+  tw-bg-negative
+}

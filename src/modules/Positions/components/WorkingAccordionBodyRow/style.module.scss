@@ -1,0 +1,53 @@
+.positionsAccordionBodyRow {
+  @apply
+  tw-mt-3
+  tw-px-6
+  tw-flex
+  tw-items-center
+}
+
+.positionsAccordionBodyRowValue {
+  @apply
+  tw-flex-1
+  tw-text-xs
+}
+
+.positionsAccordionBodyRowValueTime {
+  @apply
+  tw-block
+
+  md:tw-hidden
+}
+
+.positionsAccordionBodyRowValueProduct {
+  @apply
+  tw-hidden
+
+  md:tw-block
+}
+
+.positionsAccordionBodyRowNetLabel {
+  @apply
+  tw-mr-2
+
+  sm:tw-text-[9px]
+  sm:tw-w-[32px]
+}
+
+.positionsAccordionBodyRowCancelButton {
+  @apply
+  tw-w-4
+  tw-h-4
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-bg-border
+  tw-rounded-sm
+}
+
+.positionsAccordionBodyRowCancelIcon {
+  @apply
+  tw-h-3
+  tw-w-3
+  tw-fill-text-primary
+}

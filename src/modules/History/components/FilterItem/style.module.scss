@@ -1,0 +1,21 @@
+.filterMenuItem {
+  @apply
+  tw-py-4
+  tw-px-2
+  tw-text-base
+  tw-text-text-primary
+  tw-w-full
+  tw-flex
+  tw-items-center
+  tw-justify-start
+  tw-rounded-lg
+
+  hover:tw-bg-border
+}
+
+.filterMenuItemCheckBox {
+  @apply
+  tw-mr-4
+
+  group-hover:tw-border-text-primary
+}

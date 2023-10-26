@@ -1,0 +1,12 @@
+.divider {
+  @apply
+  tw-w-full
+  tw-h-[1px]
+  tw-bg-border
+}
+
+.dividerVertical {
+  @apply
+  tw-w-[1px]
+  tw-h-full
+}

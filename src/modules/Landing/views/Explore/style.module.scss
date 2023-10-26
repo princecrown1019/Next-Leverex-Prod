@@ -1,0 +1,64 @@
+.explore {
+}
+
+.exploreButtonLink {
+  @apply
+  tw-mt-8
+  tw-mx-auto
+  tw-w-[240px]
+  tw-transition-all
+}
+
+.exploreButtonLink:hover {
+  box-shadow: 0 0 24px 1px rgba(0, 132, 255, 0.56)
+}
+
+.exploreCarousel {
+  @apply
+  tw-mt-24
+  tw-w-full
+
+  sm:tw-mt-8
+}
+
+.exploreCarouselItem {
+  @apply
+  tw-min-w-[900px]
+  tw-max-w-[900px]
+  tw-opacity-[0.35]
+  tw-scale-[80%]
+
+  tw-transition-all
+  tw-duration-200
+}
+
+@screen md {
+  .exploreCarouselItem {
+    @apply
+    md:tw-w-[calc(100%-120px)]
+    md:tw-min-w-[calc(100%-120px)]
+  }
+}
+
+@screen sm {
+  .exploreCarouselItem {
+    @apply
+    tw-w-[calc(100%-32px)]
+    tw-min-w-[calc(100%-32px)]
+  }
+}
+
+.exploreCarouselItem:not(:last-of-type) {
+  @apply
+  tw-mr-14
+
+  md:tw-mr-0
+
+  sm:tw-mr-0
+}
+
+.exploreCarouselItemActive {
+  @apply
+  tw-opacity-100
+  tw-scale-100
+}

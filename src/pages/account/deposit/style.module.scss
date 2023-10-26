@@ -1,0 +1,42 @@
+.deposit {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-flex
+  tw-flex-col
+  tw-justify-between
+}
+
+.depositMain {
+  @apply
+  tw-p-6
+}
+
+.depositExchange {
+  @apply
+  tw-mt-6
+}
+
+.depositContent {
+  @apply
+  tw-mt-6
+}
+
+.depositOngoingTransactions {
+  @apply
+  tw-min-h-[204px]
+  tw-max-h-[calc(100vh-528px)]
+}
+
+.depositHeadlineRow {
+  @apply
+  tw-flex
+  tw-w-fit
+  tw-items-center
+  tw-justify-between
+}
+
+.depositHeadline {
+  @apply
+  tw-mr-6
+}

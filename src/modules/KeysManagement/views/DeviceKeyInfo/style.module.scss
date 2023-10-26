@@ -1,0 +1,56 @@
+.deviceKeyInfo {
+  @apply
+  tw-p-6
+  tw-flex-1
+  tw-overflow-y-auto
+  tw-border-l-[1px]
+  tw-border-transparent
+}
+
+.deviceKeyInfoVisible {
+  @apply
+  tw-border-border
+}
+
+.deviceKeyInfoEmpty {
+  @apply
+  tw-p-0
+}
+
+.deviceKeyInfoSection:not(:first-of-type) {
+  @apply
+  tw-mt-6
+}
+
+.deviceKeyInfoKey {
+  @apply
+  tw-mt-6
+  tw-justify-between
+}
+
+.deviceKeyInfoMeta {
+  @apply
+  tw-mt-6
+}
+
+.deviceKeyInfoDivider {
+  @apply
+  tw-mt-6
+}
+
+.deviceKeyInfoOptionsPitch {
+  @apply
+  tw-mt-2
+  tw-text-text-secondary
+  tw-text-sm
+}
+
+.deviceKeyInfoOptionsInput {
+  @apply
+  tw-mt-4
+}
+
+.deviceKeyInfoPermissions {
+  @apply
+  tw-mt-4
+}

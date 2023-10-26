@@ -1,0 +1,23 @@
+.yearMonthPicker {
+  @apply
+  tw-px-4
+  tw-pb-3
+}
+
+.yearMonthPickerList {
+  @apply
+  tw-flex
+  tw-flex-wrap
+  tw-justify-center
+  tw-items-center
+}
+
+.yearMonthPickerButtonYear {
+  @apply
+  tw-w-1/4
+}
+
+.yearMonthPickerButtonMonth {
+  @apply
+  tw-w-1/3
+}

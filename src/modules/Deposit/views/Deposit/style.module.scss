@@ -1,0 +1,52 @@
+.deposit {
+  @apply
+  tw-flex
+  tw-max-w-3xl
+  tw-w-full
+}
+
+.depositColumn {
+  @apply
+  tw-flex-1
+}
+
+.depositColumn:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.depositInput:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.depositInputDetails {
+  @apply
+  tw-mt-6
+}
+
+.depositInputAddressEndAdornment {
+  @apply
+  tw-mt-2
+  tw-flex
+  tw-flex-col
+}
+
+.depositInputAddressEndAdornmentButton {
+  @apply
+  tw-p-1
+  tw-rounded-md
+}
+
+.depositInputButtonQr {
+  @apply
+  tw-z-[1]
+}
+
+.depositAddressButton {
+  @apply
+  tw-w-full
+  tw-rounded-md
+  tw-cursor-pointer
+  tw-text-text-secondary
+}

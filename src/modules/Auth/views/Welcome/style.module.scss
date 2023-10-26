@@ -1,0 +1,32 @@
+.welcomeModalPitch {
+  @apply
+  tw-max-w-sm
+}
+
+.welcomeModalSteps {
+  @apply
+  tw-mt-6
+  tw-pl-4
+  tw-list-decimal
+}
+
+.welcomeModalStep {
+  @apply
+  tw-text-text-secondary
+  tw-text-sm
+}
+
+.welcomeModalStep:not(:first-of-type) {
+  @apply
+  tw-mt-3
+}
+
+.welcomeModalButton {
+  @apply
+  tw-mt-8
+}
+
+.welcomeModalBottomPitch {
+  @apply
+  tw-mt-4
+}

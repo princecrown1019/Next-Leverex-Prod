@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext", "es2017", "ESNext.String"],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "preserve",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "removeComments": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "~/constants/*": ["constants/*"],
+      "~/containers/*": ["containers/*"],
+      "~/components/*": ["components/*"],
+      "~/contexts/*": ["contexts/*"],
+      "~/styles/*": ["styles/*"],
+      "~/store/*": ["store/*"],
+      "~/pages/*": ["pages/*"],
+      "~/hooks/*": ["hooks/*"],
+      "~/hocs/*": ["hocs/*"],
+      "~/services/*": ["services/*"],
+      "~/assets/*": ["assets/*"],
+      "~/types/*": ["types/*"],
+      "~/modules/*": ["modules/*"],
+      "~/layouts/*": ["layouts/*"],
+      "~/libs/*": ["libs/*"],
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "classnameTransform": "camelCase",
+          "customMatcher": "\\.module\\.(c|sc)ss$"
+        }
+      }
+      ]
+  },
+  "include": ["src", "next-env.d.ts"],
+  "exclude": ["node_modules", "jest.config.js", "mocks"]
+}

@@ -1,0 +1,68 @@
+.contacts {
+  @apply
+  tw-p-6
+  tw-w-full
+  tw-max-w-sm
+}
+
+.contactsPitch {
+  @apply
+  tw-mt-4
+  tw-text-text-secondary
+  tw-text-xs
+}
+
+.contactsSection {
+  @apply
+  tw-mt-8
+}
+
+.contactsSectionHeadline {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+  tw-font-bold
+}
+
+.contactsSectionContent {
+  @apply
+  tw-mt-4
+  tw-flex
+}
+
+.contactsSectionLink {
+  @apply
+  tw-text-xs
+}
+
+.contactsSectionSocialLink {
+  @apply
+  tw-text-[5px]
+  tw-text-transparent
+  tw-block
+  tw-select-none
+
+  before:tw-flex
+  before:tw-w-6
+  before:tw-h-6
+}
+
+.contactsSectionSocialLink:not(:last-of-type) {
+  @apply
+  tw-mr-6
+}
+
+.contactsSectionSocialLinkTwitter {
+  @apply
+  before:tw-content-[url(/static/media/landing/twitter.svg)]
+}
+
+.contactsSectionSocialLinkTelegram {
+  @apply
+  before:tw-content-[url(/static/media/landing/telegram.svg)]
+}
+
+.contactsSectionSocialLinkDiscord {
+  @apply
+  before:tw-content-[url(/static/media/landing/discord.svg)]
+}

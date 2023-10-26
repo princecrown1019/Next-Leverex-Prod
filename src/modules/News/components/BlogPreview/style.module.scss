@@ -1,0 +1,83 @@
+.blogPreview {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-bg-background
+  tw-rounded-2xl
+  tw-overflow-hidden
+
+  hover:tw-no-underline
+}
+
+.blogPreviewImg {
+  @apply
+  tw-object-cover
+  tw-flex-1
+  tw-h-full
+}
+
+.blogPreviewContent {
+  @apply
+  tw-flex
+  tw-flex-col
+  tw-justify-between
+}
+
+.blogPreviewContentLink {
+  @apply
+  tw-py-6
+  tw-px-6
+  tw-pb-4
+
+  hover:tw-no-underline
+}
+
+.blogPreviewCategory {
+  @apply
+  tw-text-text-secondary
+  tw-text-sm
+}
+
+.blogPreviewHeadline {
+  @apply
+  tw-text-text-primary
+  tw-font-bold
+  tw-text-xl
+}
+
+.blogPreviewDescription {
+  @apply
+  tw-mt-2
+  tw-text-text-secondary
+  tw-text-base
+}
+
+.blogPreviewFooter {
+  @apply
+  tw-flex
+  tw-justify-between
+}
+
+.blogPreviewAuthor {
+  @apply
+  tw-pt-4
+  tw-pl-6
+  tw-pb-4
+  tw-flex-1
+  tw-text-text-primary
+  tw-text-sm
+
+  hover:tw-no-underline
+}
+
+.blogPreviewCopy {
+  @apply
+  tw-px-6
+  tw-py-4
+}
+
+.blogPreviewCopyIcon {
+  @apply
+  tw-fill-primary
+  tw-scale-[80%]
+}

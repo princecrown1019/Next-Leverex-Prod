@@ -1,0 +1,81 @@
+.leverage {
+  @apply
+  tw-w-full
+}
+
+.label {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+  tw-z-[1]
+}
+
+.dot {
+  @apply
+  tw-h-0.5
+  tw-w-0.5
+  tw-rounded-full
+  tw-bg-background-input
+
+  first-of-type:tw-translate-y-[-50%]
+  first-of-type:tw-bg-transparent
+
+  last-of-type:tw-translate-y-[50%]
+  last-of-type:tw-bg-transparent
+}
+
+.track {
+  // tailwind's gradient doesn't work as needed.
+  background-image: linear-gradient(90deg, #25D160 0%, #FF2D58 100%);
+
+  @apply
+  tw-mt-4
+  tw-h-[10px]
+  tw-w-full
+  tw-rounded-xl
+  tw-flex
+  tw-items-center
+  tw-justify-between
+  tw-relative
+}
+
+.thumb {
+  @apply
+  tw-py-1
+  tw-px-2
+  tw-block
+  tw-rounded
+  tw-bg-border
+  tw-shadow-2xl
+  tw-text-xs
+  tw-text-text-primary
+  tw-absolute
+  tw-left-0
+  tw-translate-x-[-50%]
+  tw-shadow-background
+  tw-shadow-2xl
+}
+
+.thumbLeft {
+  @apply
+  tw-translate-x-[-35%]
+}
+
+.thumbRight {
+  @apply
+  tw-translate-x-[-69%]
+}
+
+.marks {
+  @apply
+  tw-mt-3
+  tw-flex
+  tw-justify-between
+}
+
+.mark {
+  @apply
+  tw-z-[1]
+  tw-text-sm
+  tw-text-text-secondary
+}

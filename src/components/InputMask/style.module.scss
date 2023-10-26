@@ -1,0 +1,22 @@
+.inputMask {
+  @apply
+  tw-text-base
+  tw-text-border
+  tw-bg-transparent
+  tw-caret-primary
+  tw-flex-1
+  tw-absolute
+  tw-z-0
+  tw-left-0
+  tw-right-0
+  tw-select-none
+
+  placeholder:tw-text-text-secondary-contrast-text
+
+  selection:tw-bg-transparent
+}
+
+.inputMaskWithEndAdornment {
+  @apply
+  tw-pr-4
+}

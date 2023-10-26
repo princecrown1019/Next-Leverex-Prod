@@ -1,0 +1,52 @@
+.streamsRow {
+  @apply
+  tw-mt-1
+  tw-pl-6
+  tw-pr-3
+  tw-py-1
+  tw-px-2
+  tw-flex
+  tw-items-center
+  tw-border-l-[2px]
+  tw-border-transparent
+}
+
+.streamsRowReversed {
+  @apply
+  tw-pl-3
+  tw-pr-6
+  tw-border-r-[2px]
+  tw-border-l-0
+  tw-flex-row-reverse
+}
+
+.streamsRowBest {
+  @apply
+  tw-border-l-primary
+  tw-bg-gradient-to-r
+  tw-from-primary-contrast-text-medium
+}
+
+.streamsRowReversed.streamsRowBest {
+  @apply
+  tw-bg-gradient-to-l
+  tw-border-r-primary
+}
+
+.streamsRowItem {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-flex-1
+}
+
+.streamsRowValue {
+  @apply
+  tw-text-xs
+}
+
+.streamsRowChangeIcon {
+  @apply
+  tw-mr-1
+  tw-w-2
+}

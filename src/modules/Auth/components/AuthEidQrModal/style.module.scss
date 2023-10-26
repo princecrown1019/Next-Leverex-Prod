@@ -1,0 +1,22 @@
+.authEidModalQr {
+  @apply
+  tw-mt-6
+}
+
+.authEidModalSteps {
+  @apply
+  tw-mt-6
+  tw-pl-4
+  tw-list-decimal
+}
+
+.authEidModalStep {
+  @apply
+  tw-text-text-secondary
+  tw-text-sm
+}
+
+.authEidModalStep:not(:first-of-type) {
+  @apply
+  tw-mt-3
+}

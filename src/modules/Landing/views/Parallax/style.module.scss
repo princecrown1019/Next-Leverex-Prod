@@ -1,0 +1,107 @@
+.parallax {
+  @apply
+  tw-mx-auto
+  tw-pl-[calc((100vw-1440px)/2)]
+  tw-w-full
+  tw-h-[4300px]
+  tw-overflow-hidden
+  tw-absolute
+  tw-top-0
+  tw-bottom-0
+  tw-left-0
+  tw-right-0
+  tw-z-0
+
+  md:tw-h-[5000px]
+
+  sm:tw-h-[4800px]
+}
+
+.parallaxEllipse {
+  @apply
+  tw-absolute
+}
+
+.parallaxEllipseOne {
+  @apply
+  tw-min-h-[891px]
+  tw-min-w-[909px]
+  tw-max-h-[891px]
+  tw-max-w-[909px]
+  tw-object-contain
+  tw-mt-[-271px]
+  tw-ml-[-337px]
+}
+
+.parallaxEllipseTwo {
+  @apply
+  tw-min-h-[1276px]
+  tw-min-w-[1319px]
+  tw-max-h-[1276px]
+  tw-max-w-[1319px]
+  tw-object-contain
+  tw-mt-[-116px]
+  tw-ml-[409px]
+
+  sm:tw-mt-[128px]
+  sm:tw-ml-[0px]
+}
+
+.parallaxEllipseThree {
+  @apply
+  tw-min-h-[891px]
+  tw-min-w-[909px]
+  tw-max-h-[891px]
+  tw-max-w-[909px]
+  tw-object-contain
+  tw-mt-[622px]
+  tw-ml-[10px]
+
+  xl:tw-mt-[992px]
+
+  lg:tw-mt-[792px]
+
+  sm:tw-mt-[500px]
+  sm:tw-ml-[-256px]
+}
+
+.parallaxEllipseFour {
+  @apply
+  tw-min-h-[1072px]
+  tw-min-w-[1102px]
+  tw-max-h-[1072px]
+  tw-max-w-[1102px]
+  tw-object-contain
+  tw-mt-[1681px]
+  tw-ml-[506px]
+
+  xl:tw-mt-[2051px]
+
+  lg:tw-mt-[1851px]
+
+  md:tw-mt-[2689px]
+  md:tw-ml-[264px]
+
+  sm:tw-mt-[2448px]
+  sm:tw-ml-[128px]
+}
+
+.parallaxEllipseFive {
+  @apply
+  tw-min-h-[1387px]
+  tw-min-w-[1437px]
+  tw-max-h-[1387px]
+  tw-object-contain
+  tw-mt-[2637px]
+  tw-ml-[-223px]
+
+  xl:tw-mt-[3007px]
+
+  lg:tw-mt-[2807px]
+
+  md:tw-mt-[3300px]
+  md:tw-ml-[-420px]
+
+  sm:tw-mt-[3200px]
+  sm:tw-ml-[-420px]
+}

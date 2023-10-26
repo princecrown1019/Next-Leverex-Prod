@@ -1,0 +1,24 @@
+.whitelistAddress {
+  @apply
+  tw-p-6
+  tw-w-full
+}
+
+.whitelistAddressHeadlineRow {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-w-full
+}
+
+.whitelistAddressBackButton {
+  @apply
+  tw-mr-3
+  tw-rounded-md
+  tw-text-text-primary
+}
+
+.whitelistAddressContent {
+  @apply
+  tw-mt-6
+}

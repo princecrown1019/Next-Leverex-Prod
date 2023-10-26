@@ -1,0 +1,34 @@
+.changeArrow {
+  @apply
+  tw-w-[10px]
+}
+
+.changeArrowNegative {
+  @apply
+  tw-rotate-180
+  tw-fill-negative
+}
+
+.changeArrowInvisible {
+  @apply
+  tw-opacity-0
+}
+
+.changeArrowGradient {
+  @apply
+  tw-h-[10px]
+  tw-w-[10px]
+  tw-block
+  tw-bg-no-repeat
+  tw-bg-center
+}
+
+.changeArrowGradientUpLong {
+  @apply
+  tw-bg-[url(/static/media/change-arrows/arrow-up-long-icon.svg)]
+}
+
+.changeArrowGradientDownShort {
+  @apply
+  tw-bg-[url(/static/media/change-arrows/arrow-down-short-icon.svg)]
+}

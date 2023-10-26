@@ -1,0 +1,10 @@
+.staticPitch {
+  @apply
+  tw-text-lg
+  tw-text-text-grey-light
+}
+
+.staticPitch:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}

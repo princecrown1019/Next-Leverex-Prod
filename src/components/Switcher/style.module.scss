@@ -1,0 +1,32 @@
+.switcher {
+  @apply
+  tw-p-0.5
+  tw-w-12
+  tw-rounded-full
+  tw-bg-background-input
+
+  tw-transition-colors
+  tw-duration-[350ms]
+}
+
+.switcherActive {
+  @apply
+  tw-bg-primary
+}
+
+.switcherActive > .switcherThumb {
+  @apply
+  tw-translate-x-5
+}
+
+.switcherThumb {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15), 0 3px 1px rgba(0, 0, 0, 0.06);
+
+  @apply
+  tw-h-6
+  tw-w-6
+  tw-rounded-full
+  tw-bg-text-primary
+  tw-transition-transform
+  tw-duration-[350ms]
+}

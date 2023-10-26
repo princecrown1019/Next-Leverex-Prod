@@ -1,0 +1,21 @@
+.indicatorButton {
+  @apply
+  tw-p-2
+  tw-opacity-[0.15]
+
+  hover:tw-opacity-25
+
+  before:tw-content-['']
+  before:tw-w-2
+  before:tw-h-2
+  before:tw-block
+  before:tw-rounded-full
+  before:tw-bg-text-primary
+}
+
+.indicatorButtonActive {
+  @apply
+  tw-opacity-50
+
+  hover:tw-opacity-50
+}

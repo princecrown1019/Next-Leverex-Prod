@@ -1,0 +1,19 @@
+.divider {
+  @apply
+  tw-w-full
+  tw-min-h-[1px]
+  tw-bg-border
+}
+
+.dividerHorizontal {
+  @apply
+  tw-max-h-[1px]
+}
+
+.dividerVertical {
+  @apply
+  tw-min-w-[1px]
+  tw-max-w-[1px]
+  tw-max-h-[unset]
+  tw-h-full
+}

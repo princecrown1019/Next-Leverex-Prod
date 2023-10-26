@@ -1,0 +1,12 @@
+.checkboxWithLabel {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-text-text-secondary
+}
+
+.checkboxWithLabelIcon {
+  @apply
+  tw-mr-2
+  tw-min-w-[24px]
+}

@@ -1,0 +1,55 @@
+.deviceKey {
+  @apply
+  tw-p-4
+  tw-w-full
+  tw-bg-background-input
+  tw-rounded-md
+  tw-border-[1px]
+  tw-flex
+  tw-border-transparent
+  tw-items-center
+  tw-text-sm
+  tw-text-text-secondary
+}
+
+.deviceKey:not(:first-of-type) {
+  @apply
+  tw-mt-6
+}
+
+.deviceKeyActive {
+  @apply
+  tw-border-primary
+}
+
+.deviceKeyWithRevoke {
+  @apply
+  tw-justify-between
+}
+
+.deviceKeyValueWithRevoke {
+  @apply
+  tw-mr-4
+  tw-text-ellipsis
+  tw-w-full
+  tw-overflow-hidden
+  tw-text-left
+}
+
+.deviceKeyValueWithoutRevoke {
+  @apply
+  tw-w-fit
+}
+
+.deviceKeyLabel {
+  @apply
+  tw-text-ellipsis
+  tw-max-w-full
+  tw-overflow-hidden
+}
+
+.deviceKeyRevokeButton {
+  @apply
+  tw-bg-negative-contrast-text
+  tw-text-negative
+}

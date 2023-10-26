@@ -1,0 +1,45 @@
+.deviceKeys {
+  @apply
+  tw-p-6
+  tw-flex-1
+  tw-overflow-y-auto
+  tw-relative
+}
+
+.deviceKeysEmptyWrapper {
+  @apply
+  tw-flex-[unset]
+}
+
+.deviceKeysHeader {
+  @apply
+  tw-mt-[-84px]
+  tw-flex
+  tw-justify-between
+  tw-items-center
+
+  tw-transition-all
+  tw-duration-300
+}
+
+.deviceKeysHeaderHidden {
+  @apply
+  tw-mt-[-56px]
+}
+
+.deviceKeysSearchButton {
+  @apply
+  tw-p-2
+  tw-text-text-primary
+  tw-rounded-md
+}
+
+.deviceKeysSearchIcon {
+  @apply
+  tw-fill-text-primary
+}
+
+.deviceKeysList {
+  @apply
+  tw-mt-6
+}

@@ -1,0 +1,33 @@
+
+.accordion {
+  @apply
+  tw-w-full
+  tw-overflow-auto
+  tw-h-full
+}
+
+.accordionHeader {
+  @apply
+  tw-w-full
+  tw-text-left
+}
+
+.accordionHeaderSticky {
+  @apply
+  tw-sticky
+  tw-top-0
+  tw-z-[1]
+}
+
+.accordionBody {
+  @apply
+  tw-w-full
+  tw-h-0
+  tw-overflow-hidden
+}
+
+.accordionBodyVisible {
+  @apply
+  tw-h-[calc(100%-42px)]
+  tw-overflow-auto
+}

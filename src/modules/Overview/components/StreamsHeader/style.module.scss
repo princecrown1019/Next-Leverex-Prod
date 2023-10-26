@@ -1,0 +1,42 @@
+.streamsHeader {
+  @apply
+  tw-px-6
+  tw-flex
+  tw-justify-between
+}
+
+.streamsHeaderIndexContainer {
+  @apply
+  tw-mt-2
+  tw-flex
+  tw-justify-center
+
+  before:tw-content-['']
+  before:tw-flex-1
+
+  after:tw-content-['']
+  after:tw-flex-1
+}
+
+.streamsHeaderIndexWrapper {
+  @apply
+  tw-flex-[0.335]
+}
+
+.streamsHeaderLabel {
+  @apply
+  tw-flex-1
+  tw-text-text-secondary
+  tw-text-xs
+  tw-flex
+}
+
+.streamsHeaderLabel:nth-child(4) {
+  @apply
+  tw-pl-4
+}
+
+.streamsHeaderLabel:nth-child(5) {
+  @apply
+  tw-pl-5
+}

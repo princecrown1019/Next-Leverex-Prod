@@ -1,0 +1,26 @@
+.headline {
+  @apply
+  tw-pt-8
+  tw-text-[48px]
+  tw-font-bold
+  tw-leading-[82px]
+  tw-text-text-primary
+  tw-text-center
+
+  sm:tw-text-[32px]
+  sm:tw-leading-[40px]
+}
+
+.pitch {
+  @apply
+  tw-mt-4
+  tw-text-xl
+  tw-text-center
+  tw-leading-[24px]
+  tw-text-text-primary
+
+  sm:tw-mt-4
+  sm:tw-max-w-[calc(100%-32px)]
+  sm:tw-text-sm
+  sm:tw-leading-[20px]
+}

@@ -1,0 +1,59 @@
+.newsLayout {
+  @apply
+  tw-pt-44
+  tw-min-h-[100%]
+  tw-bg-[url(/static/media/static-bg.jpeg)]
+  tw-bg-no-repeat
+  tw-bg-cover
+  tw-bg-fixed
+  tw-bg-right
+  tw-bg-[#21212E]
+}
+
+.newsLayoutHeadline {
+  @apply
+  tw-text-6xl
+  tw-text-text-primary
+  tw-font-bold
+  tw-leading-[84px]
+  tw-text-center
+
+  sm:tw-text-4xl
+  sm:tw-leading-[44px]
+}
+
+.newsLayoutDescription {
+  @apply
+  tw-mt-4
+  tw-max-w-lg
+  tw-text-base
+  tw-text-text-secondary
+  tw-text-center
+}
+
+.newsLayoutWrapper {
+  @apply
+  tw-mx-auto
+  tw-max-w-[960px]
+  tw-w-full
+  tw-flex-col
+  tw-items-center
+}
+
+.newsLayoutContentHeader {
+  @apply
+  tw-flex
+}
+
+.newsLayoutContent {
+  @apply
+  tw-mt-24
+  tw-px-16
+
+  sm:tw-px-4
+}
+
+.newsFooter {
+  @apply
+  tw-mt-[140px]
+}

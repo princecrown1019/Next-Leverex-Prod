@@ -1,0 +1,28 @@
+.switchableRow {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-items-center
+}
+
+.switchableRowContent {
+  @apply
+  tw-mr-4
+  tw-flex-1
+}
+
+.switchableRowTitle {
+  @apply
+  tw-text-left
+  tw-text-text-primary
+  tw-text-base
+  tw-font-medium
+}
+
+.switchableRowDescription {
+  @apply
+  tw-mt-0.5
+  tw-text-left
+  tw-text-text-secondary
+  tw-text-sm
+}

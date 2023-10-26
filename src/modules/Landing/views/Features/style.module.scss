@@ -1,0 +1,69 @@
+.featuresList {
+  @apply
+  tw-mt-[120px]
+  tw-flex
+  tw-flex-wrap
+  tw-justify-between
+
+  md:tw-flex-col
+  md:tw-items-center
+
+  sm:tw-mt-14
+}
+
+.featuresListOnScreen li {
+  @apply
+  tw-opacity-100
+  tw-translate-y-0
+}
+
+.featuresListOnScreen > li:before {
+  background-size: 0;
+
+  @apply
+  tw-animate-increaseDecrease
+}
+
+.featuresItemFees {
+  @apply
+  before:tw-bg-[url(/static/media/landing/fees.svg)]
+}
+
+.featuresItemFees li:before {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-long-from
+  tw-to-long-to
+}
+
+.featuresItemLeverage {
+  @apply
+  before:tw-bg-[url(/static/media/landing/leverage.svg)]
+}
+
+.featuresItemLeverage li:before {
+  @apply
+  tw-bg-primary
+}
+
+.featuresItemFlexibility {
+  @apply
+  before:tw-bg-[url(/static/media/landing/flexibility.svg)]
+}
+
+.featuresItemFlexibility li:before {
+  @apply
+  tw-bg-default
+}
+
+.featuresItemAward {
+  @apply
+  before:tw-bg-[url(/static/media/landing/award.svg)]
+}
+
+.featuresItemAward li:before {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-short-from
+  tw-to-short-to
+}

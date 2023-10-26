@@ -1,0 +1,17 @@
+.progressBar {
+  @apply
+  tw-h-[4px]
+  tw-w-full
+  tw-rounded
+  tw-bg-background-input
+}
+
+.progressBarRunningTrack {
+  @apply
+  tw-h-full
+  tw-w-0
+  tw-bg-primary
+  tw-rounded
+  tw-transition-all
+  tw-duration-500
+}

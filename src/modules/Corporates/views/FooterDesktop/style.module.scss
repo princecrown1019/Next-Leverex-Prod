@@ -1,0 +1,202 @@
+.footer {
+  @apply
+  tw-py-[72px]
+  tw-border-[1px]
+  tw-border-border-light-text-contrast
+
+  sm:tw-pt-14
+  sm:tw-pb-8
+}
+
+.footerWrapper {
+  @apply
+  tw-mx-auto
+  tw-px-[60px]
+  tw-max-w-[1320px]
+  tw-flex
+  tw-justify-between
+  tw-w-full
+}
+
+.footerMain {
+  @apply
+  tw-flex-1
+
+  md:tw-mr-[90px]
+
+  sm:tw-mr-0
+}
+
+.footerBrand {
+  @apply
+  sm:tw-mr-0
+}
+
+.footerBrand {
+  @apply
+  tw-text-xxs
+  tw-w-[128px]
+  tw-h-[28px]
+
+  sm:tw-w-[100px]
+  sm:tw-h-[20px]
+}
+
+.footerBrandLink {
+  @apply
+  tw-bg-[url(/static/media/brand.svg)]
+  tw-bg-no-repeat
+  tw-text-transparent
+  tw-text-xxs
+  tw-no-underline
+  tw-block
+  tw-select-none
+  tw-w-full
+  tw-h-full
+}
+
+.footerLinksHeadline {
+  @apply
+  tw-text-base
+  tw-text-text-primary
+  tw-font-medium
+
+  sm:tw-text-center
+  sm:tw-flex
+}
+
+.footerSocialsList {
+  @apply
+  tw-mt-8
+}
+
+.footerSocialsListMobile {
+  @apply
+  tw-mt-0
+  tw-pt-8
+  tw-pb-14
+}
+
+.footerLinksLists {
+  @apply
+  tw-flex
+
+  md:tw-flex-wrap
+  md:tw-w-full
+  md:tw-justify-between
+
+  sm:tw-flex-col
+  sm:tw-items-center
+}
+
+.footerLinksListContainer {
+  @apply
+  tw-min-w-[160px]
+}
+
+.footerLinksListContainer:not(:last-of-type) {
+  @apply
+  tw-mr-6
+
+  md:tw-mr-0
+}
+
+.footerLinksListContainer:not(:first-of-type) {
+  @apply
+  md:tw-mt-14
+}
+
+.footerLinksList {
+  @apply
+  tw-mt-3
+  tw-max-w-[180px]
+  tw-w-full
+  tw-list-none
+}
+
+.footerLinksListItem {
+  @apply
+  sm:tw-text-center
+}
+
+.footerLinksListItem:not(:first-of-type) {
+  @apply
+  tw-mt-3
+}
+
+.footerText {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+}
+
+.footerLink {
+  @apply
+  tw-no-underline
+
+  hover:tw-underline
+}
+
+.footerButtonLink {
+  @apply
+  tw-mt-6
+  tw-w-[140px]
+  tw-w-[140px]
+  tw-text-primary
+  tw-bg-transparent
+  tw-border-[1px]
+  tw-border-primary
+
+  hover:tw-bg-primary
+  hover:tw-text-text-primary
+
+  md:tw-mt-8
+}
+
+.footerButtonLinkTablet {
+  @apply
+  sm:tw-hidden
+}
+
+.footerButtonLinkMobile {
+  @apply
+  tw-mt-14
+  tw-mx-auto
+  tw-flex
+}
+
+.footerEnd {
+  @apply
+  tw-py-6
+  tw-border-t-border-light-text-contrast
+  tw-flex
+  tw-items-center
+  tw-bg-white-lighter-contrast-text
+
+  sm:tw-border-none
+  sm:tw-bg-transparent
+}
+
+.footerEndInner {
+  @apply
+  sm:tw-flex-col
+  sm:tw-items-center
+}
+
+.footerEndRight {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.footerEndIcon {
+  @apply
+  tw-mr-4
+  tw-fill-text-primary
+}
+
+.footerEndLink {
+  @apply
+  tw-flex
+  tw-items-center
+}

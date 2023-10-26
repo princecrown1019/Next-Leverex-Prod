@@ -1,0 +1,23 @@
+.indicatorWrapperContainer {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-flex
+  tw-flex-1
+  tw-justify-center
+  tw-items-center
+
+  sm:tw-h-[unset]
+}
+
+.indicatorWrapper {
+  @apply
+  tw-w-6
+  tw-h-6
+  tw-border-2
+  tw-border-border
+  tw-border-r-transparent
+  tw-border-b-transparent
+  tw-rounded-full
+  tw-animate-spin
+}

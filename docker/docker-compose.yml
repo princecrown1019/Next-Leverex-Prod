@@ -1,0 +1,13 @@
+version: "2"
+services:
+  rollthecoin-uat:
+    build:
+      context: ../
+      dockerfile: Dockerfile.local
+    volumes:
+      - ~/nginx/www/rollthecoin-uat:/build/build/
+    networks:
+      - genoa-net
+
+networks:
+  genoa-net:

@@ -1,0 +1,73 @@
+.access {
+  @apply
+  tw-mx-auto
+  tw-px-[36px]
+  tw-max-w-[1300px]
+  tw-w-full
+
+  sm:tw-px-1
+}
+
+.access h2 {
+  @apply
+  tw-max-w-[700px]
+}
+
+.accessList {
+  @apply
+  tw-mt-16
+  tw-w-full
+  tw-flex
+  tw-flex-wrap
+  tw-justify-between
+}
+
+.accessListItem {
+  @apply
+  tw-p-1
+  tw-flex-1
+  tw-min-w-[33%]
+}
+
+.accessListItemPlaceholder {
+  @apply
+  tw-p-6
+  tw-w-full
+  tw-h-full
+  tw-rounded-2xl
+  tw-bg-transparent
+  tw-duration-300
+  tw-transition-colors
+
+  hover:tw-bg-white-lighter-contrast-text
+}
+
+.accessListItemHeadline {
+  @apply
+  tw-text-2xl
+  tw-font-bold
+}
+
+.accessListItemDescription {
+  @apply
+  tw-mt-4
+  tw-text-base
+  tw-leading-[28px]
+  tw-text-text-grey
+
+}
+
+@screen md {
+  .accessListItem {
+    @apply
+    tw-min-w-[50%]
+  }
+}
+
+@screen sm {
+  .accessListItem {
+    @apply
+    tw-py-2
+    tw-min-w-[100%]
+  }
+}

@@ -1,0 +1,28 @@
+.rangeDropdownOption {
+  @apply
+  tw-py-1
+  tw-flex
+  tw-items-center
+}
+
+.rangeDropdownOptionName {
+  @apply
+  tw-mr-1
+  tw-text-base
+  tw-text-text-primary
+  tw-block
+}
+
+.rangeDropdownFooterButton {
+  @apply
+  tw-mt-2
+  tw-py-3
+  tw-px-2
+  tw-rounded-lg
+  tw-w-full
+  tw-flex
+  tw-items-center
+  tw-text-primary
+
+  hover:tw-bg-primary-contrast-text-medium
+}

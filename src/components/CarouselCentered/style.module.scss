@@ -1,0 +1,23 @@
+.container {
+  @apply
+  tw-w-full
+  tw-overflow-hidden
+}
+
+.slides {
+  @apply
+  tw-duration-[350ms]
+  tw-flex
+}
+
+.slidesWithInitialAnimation {
+  transform: translate3d(100%, 0px, 0px);
+
+  @apply
+  tw-duration-[800ms]
+}
+
+.indicators {
+  @apply
+  tw-mt-6
+}

@@ -1,0 +1,22 @@
+.positionsAccordion {
+  @apply
+  tw-min-w-[600px]
+
+  sm:tw-min-w-[unset]
+}
+
+.positionsAccordionHeaderVisible {
+  @apply
+  tw-bg-background-input
+}
+
+.positionsAccordionBodyParent {
+  @apply
+  sm:tw-mt-[-24px]
+  sm:tw-h-[308px]
+}
+
+.positionsAccordionBody {
+  @apply
+  tw-pb-8
+}

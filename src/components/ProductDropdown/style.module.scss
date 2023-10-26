@@ -1,0 +1,33 @@
+.productDropdownOption {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.productDropdownOptionName {
+  @apply
+  tw-mr-1
+  tw-text-base
+  tw-flex
+  tw-text-text-primary
+}
+
+.productDropdownOptionFullName {
+  @apply
+  tw-flex
+  tw-text-text-secondary
+}
+
+.productDropdownIconOption {
+  @apply
+  tw-mr-4
+  tw-h-8
+  tw-w-8
+}
+
+.productDropdownIconSelected {
+  @apply
+  tw-mr-2
+  tw-h-6
+  tw-w-6
+}

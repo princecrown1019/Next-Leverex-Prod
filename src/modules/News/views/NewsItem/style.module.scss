@@ -1,0 +1,56 @@
+.navigation {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.tabs {
+  @apply
+  tw-flex-1
+  tw-block
+}
+
+.tabsItem {
+  @apply
+  tw-flex-1
+  tw-border-t-transparent
+  tw-border-x-transparent
+  tw-bg-transparent
+}
+
+.searchButton {
+  @apply
+  tw-h-[42px]
+  tw-w-[42px]
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-border-b-[1px]
+  tw-border-b-border
+}
+
+.blogs {
+  @apply
+  tw-mt-8
+  tw-flex
+  tw-flex-wrap
+}
+
+.blog {
+  @apply
+  tw-p-2
+  tw-basis-[350px]
+  tw-grow-[1]
+  tw-flex-1
+}
+
+.blog:nth-child(6n + 1) {
+  @apply
+  tw-w-full
+  tw-basis-full
+}
+
+.blog:nth-child(6n + 1) > a {
+  @apply
+  tw-flex-row
+}

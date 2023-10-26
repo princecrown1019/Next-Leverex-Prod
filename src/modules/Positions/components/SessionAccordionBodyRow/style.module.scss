@@ -1,0 +1,53 @@
+.positionsAccordionBodyRow {
+  @apply
+  tw-mt-3
+  tw-px-6
+  tw-flex
+  tw-items-center
+}
+
+.positionsAccordionBodyRowDefault {
+  @apply
+  tw-text-default
+}
+
+.positionsAccordionBodyRowLiquidation {
+  @apply
+  tw-text-warning
+}
+
+.positionsAccordionBodyRowValue {
+  @apply
+  tw-flex-1
+  tw-text-xs
+}
+
+.positionsAccordionBodyRowValueTime {
+  @apply
+  tw-block
+
+  md:tw-hidden
+}
+
+.positionsAccordionBodyRowValueProduct {
+  @apply
+  tw-hidden
+
+  md:tw-block
+}
+
+.positionsAccordionBodyRowNetLabel {
+  @apply
+  tw-mr-2
+
+  sm:tw-text-[9px]
+  sm:tw-w-[32px]
+}
+
+.positionsAccordionBodyRowChangeIcon {
+  @apply
+  tw-mr-2
+  tw-w-2
+
+  md:tw-invisible
+}

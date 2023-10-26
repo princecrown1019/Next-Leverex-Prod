@@ -1,0 +1,25 @@
+.streams {
+  @apply
+  tw-pt-4
+  tw-h-full
+  tw-flex
+  tw-flex-col
+}
+
+.streamsBody {
+  @apply
+  tw-pb-4
+  tw-flex
+  tw-flex-1
+  tw-overflow-auto
+}
+
+.streamsBodySide {
+  @apply
+  tw-flex-1
+}
+
+.streamsBodyIndexGap {
+  @apply
+  tw-flex-[0.335]
+}

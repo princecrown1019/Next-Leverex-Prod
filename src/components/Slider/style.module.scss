@@ -1,0 +1,134 @@
+.sliderContainer {
+  @apply
+  tw-w-full
+}
+
+.sliderWrapper {
+  @apply
+  tw-h-4
+  tw-w-full
+  tw-cursor-pointer
+  tw-flex
+  tw-flex-col
+  tw-justify-center
+  tw-relative
+}
+
+.sliderWrapperMarginTop {
+  @apply
+  tw-mt-2
+}
+
+.sliderButtons {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-justify-between
+}
+
+.sliderButton {
+  @apply
+  tw-text-text-secondary
+  tw-text-xxs
+}
+
+.slider {
+  @apply
+  tw-w-full
+  tw-w-full
+  tw-h-[2px]
+  tw-rounded-[2px]
+  tw-bg-border
+}
+
+.track {
+  @apply
+  tw-w-0
+  tw-h-full
+  tw-rounded-[2px]
+  tw-bg-no-repeat
+  tw-bg-primary
+  tw-absolute
+  tw-left-0
+  tw-top-[7px]
+  tw-right-0
+  tw-h-[2px]
+}
+
+.thumb {
+  @apply
+  tw-w-4
+  tw-h-4
+  tw-absolute
+  tw-top-0
+  tw-bg-primary-contrast-text-dark
+  tw-rounded-2xl
+  tw-translate-x-[-50%]
+  tw-z-[1]
+
+  before:tw-content-['']
+  before:tw-absolute
+  before:tw-h-2
+  before:tw-w-2
+  before:tw-left-1
+  before:tw-top-1
+  before:tw-rounded-xl
+  before:tw-bg-primary
+  before:tw-shadow-primary
+  before:tw-border-[1px]
+  before:tw-border-border-light-text-contrast
+}
+
+.ticks {
+  @apply
+  tw-flex
+  tw-absolute
+  tw-left-[-3px]
+  tw-right-[-3px]
+  tw-justify-between
+}
+
+.tick {
+  @apply
+  tw-w-[6px]
+  tw-h-[6px]
+  tw-border-[2px]
+  tw-border-border
+  tw-bg-background-paper
+  tw-rounded-full
+  tw-bg-no-repeat
+}
+
+.tickActive {
+  @apply
+  tw-border-primary
+}
+
+.tickButtons {
+  @apply
+  tw-flex
+  tw-justify-between
+  tw-absolute
+  tw-left-[-8px]
+  tw-right-[-8px]
+}
+
+.tickButton {
+  @apply
+  tw-min-w-[16px]
+  tw-h-[16px]
+}
+
+.sliderInput {
+  @apply
+  tw-w-[calc(100%+16px)]
+  tw-appearance-none
+  tw-opacity-0
+  tw-absolute
+  tw-top-0
+  tw-left-[-8px]
+  tw-right-[-8px]
+  tw-bottom-0
+  tw-z-[3]
+  tw-cursor-pointer
+}

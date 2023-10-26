@@ -1,0 +1,12 @@
+.dropdownButton {
+  @apply
+  tw-p-2
+  tw-w-full
+  tw-rounded-md
+  tw-text-text-secondary
+
+  hover:tw-bg-border
+
+  disabled:tw-opacity-25
+  disabled:hover:tw-bg-transparent
+}

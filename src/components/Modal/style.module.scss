@@ -1,0 +1,90 @@
+.backdrop {
+  @apply
+  tw-fixed
+  tw-inset-0
+  tw-z-50
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-bg-background-contrast-text
+  tw-opacity-0
+  tw-backdrop-blur-[1px]
+
+  tw-ease-in-out
+  tw-duration-300
+}
+
+.backdropVisible {
+  @apply
+  tw-opacity-100
+}
+
+.modal {
+  @apply
+  tw-pt-16
+  tw-px-14
+  tw-pb-12
+  tw-rounded-2xl
+  tw-border
+  tw-border-border
+  tw-bg-background-paper
+  tw-max-w-[455px]
+  tw-w-full
+  tw-relative
+  tw-opacity-0
+  tw-translate-y-8
+  tw-flex
+  tw-flex-col
+  tw-items-center
+
+  tw-ease-in-out
+  tw-duration-300
+
+  s:tw-max-w-[unset]
+  s:tw-rounded-none
+  s:tw-border-none
+  s:tw-h-full
+  s:tw-flex
+  s:tw-flex-col
+  s:tw-items-center
+  s:tw-justify-center
+}
+
+.modalVisible {
+  @apply
+  tw-translate-y-0
+  tw-opacity-100
+}
+
+.closeButton {
+  @apply
+  tw-py-1
+  tw-px-1
+  tw-rounded-lg
+  tw-absolute
+  tw-top-5
+  tw-right-5
+}
+
+.closeIcon {
+  @apply
+  tw-h-6
+  tw-w-6
+}
+
+.backButton {
+  @apply
+  tw-py-1
+  tw-px-1
+  tw-rounded-lg
+  tw-absolute
+  tw-top-5
+  tw-left-5
+}
+
+.backIcon {
+  @apply
+  tw-h-6
+  tw-w-6
+  tw-fill-text-secondary
+}

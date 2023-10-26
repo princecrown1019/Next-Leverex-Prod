@@ -1,0 +1,28 @@
+.button {
+  @apply
+  tw-px-2
+  tw-py-1
+  tw-relative
+  tw-overflow-hidden
+  tw-rounded-lg
+  tw-justify-center
+  tw-items-center
+  tw-text-xs
+  tw-font-medium
+
+  disabled:tw-opacity-30
+
+  group-hover:tw-bg-primary
+}
+
+.buttonPrimary {
+  @apply
+  tw-text-primary
+  tw-bg-primary-contrast-text-dark
+}
+
+.buttonSecondary {
+  @apply
+  tw-text-text-secondary
+  tw-bg-transparent
+}

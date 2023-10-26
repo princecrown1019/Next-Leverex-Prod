@@ -1,0 +1,23 @@
+.authEidVerifiedModalPicture {
+  @apply
+  tw-mt-8
+  tw-h-40
+}
+
+.authEidVerifiedModalSteps {
+  @apply
+  tw-mt-8
+  tw-pl-2
+  tw-list-decimal
+}
+
+.authEidVerifiedModalStep {
+  @apply
+  tw-text-sm
+  tw-text-text-secondary
+}
+
+.authEidVerifiedModalStep:not(:first-of-type) {
+  @apply
+  tw-mt-3
+}

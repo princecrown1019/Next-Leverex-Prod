@@ -1,0 +1,116 @@
+.transactionsTable {
+  @apply
+  tw-overflow-hidden
+}
+
+.transactionsTableBody {
+  @apply
+  tw-pb-6
+}
+
+.transactionsTableCellRow {
+  @apply
+  tw-px-6
+  tw-flex
+}
+
+.transactionsTableCellRow:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}
+
+.transactionsTableCell {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.transactionsTableCell:nth-child(1) {
+  @apply
+  tw-max-w-[176px]
+}
+
+.transactionsTableCell:nth-child(2) {
+  @apply
+  tw-max-w-[172px]
+}
+
+.transactionsTableCell:nth-child(3) {
+  @apply
+  tw-max-w-[198px]
+}
+
+.transactionsTableCell:nth-child(4) {
+  @apply
+  tw-max-w-[100px]
+}
+
+.transactionsTableCell:nth-child(5) {
+  @apply
+  tw-max-w-[131px]
+}
+
+.transactionsTableCell:nth-child(6) {
+  @apply
+  tw-max-w-[126px]
+}
+
+.transactionsTableCell:nth-child(7) {
+  @apply
+  tw-max-w-[95px]
+}
+
+.transactionsTableCellStatusValue {
+  @apply
+  tw-w-full
+  tw-justify-between
+}
+
+.transactionsTableCellCancelButton {
+  @apply
+  tw-h-4
+  tw-w-4
+  tw-rounded-sm
+}
+
+.transactionsTableCellCancelIcon {
+  @apply
+  tw-h-3
+  tw-w-3
+}
+
+.transactionsTableCellLoadingIndicator {
+  @apply
+  tw-h-3
+  tw-w-3
+  tw-border-l-text-secondary
+  tw-border-t-text-secondary
+}
+
+.transactionsTableCellStatusConfirming {
+  @apply
+  tw-text-warning
+}
+
+.transactionsTableCellStatusCompleted {
+  @apply
+  tw-text-positive
+}
+
+.transactionsTableCellStatusFailed {
+  @apply
+  tw-text-negative
+}
+
+.transactionsTableNetworkIcon {
+  @apply
+  tw-mr-2
+  tw-h-4
+  tw-w-4
+}
+
+.transactionsTableLink {
+  @apply
+  tw-flex
+  tw-text-xs
+}

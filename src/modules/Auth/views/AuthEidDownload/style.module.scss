@@ -1,0 +1,49 @@
+.authEidDownloadModalTabs {
+  @apply
+  tw-mt-6
+  tw-w-64
+  tw-block
+}
+
+.authEidDownloadModalTab {
+  @apply
+  tw-flex-1
+}
+
+.authEidDownloadModalQrCode {
+  @apply
+  tw-mt-8
+  tw-p-4
+}
+
+.authEidDownloadModalMarketButton {
+  @apply
+  tw-mt-6
+  tw-text-text-primary
+}
+
+.authEidDownloadModalLink {
+  @apply
+  tw-mt-4
+  tw-h-10
+  tw-w-40
+  tw-flex
+  tw-items-center
+  tw-justify-center
+  tw-rounded
+  tw-border-[1px]
+  tw-border-border
+  tw-text-sm
+  tw-text-transparent
+  tw-bg-no-repeat
+}
+
+.authEidDownloadModalLinkGooglePlay {
+  @apply
+  tw-bg-[url('/static/media/google-play.svg')]
+}
+
+.authEidDownloadModalLinkAppStore {
+  @apply
+  tw-bg-[url('/static/media/app-store.svg')]
+}

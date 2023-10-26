@@ -1,0 +1,49 @@
+.positionsAccordionColumn {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-items-center
+  tw-w-full
+  tw-justify-start
+}
+
+.positionsAccordionColumn:not(:last-of-type) {
+  @apply
+  tw-pr-2
+}
+
+.positionsAccordionColumn:nth-child(1) {
+  @apply
+  tw-max-w-[300px]
+  tw-justify-start
+}
+
+.positionsAccordionColumn:nth-child(2) {
+  @apply
+  tw-max-w-[104px]
+}
+
+.positionsAccordionColumn:nth-child(3) {
+  @apply
+  tw-max-w-[176px]
+}
+
+.positionsAccordionColumn:nth-child(4) {
+  @apply
+  tw-max-w-[137px]
+}
+
+.positionsAccordionColumn:nth-child(5) {
+  @apply
+  tw-max-w-[140px]
+}
+
+.positionsAccordionColumn:nth-child(6) {
+  @apply
+  tw-max-w-[112px]
+}
+
+.positionsAccordionColumn:nth-child(7) {
+  @apply
+  tw-max-w-[79px]
+}

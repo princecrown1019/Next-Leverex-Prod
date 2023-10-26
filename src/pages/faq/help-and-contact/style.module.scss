@@ -1,0 +1,32 @@
+.faqText {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}
+
+.faqText:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.faqLink {
+  @apply
+  tw-mt-4
+  tw-block
+  tw-text-xs
+  tw-w-min
+}
+
+.faqList {
+  @apply
+  tw-mt-2
+  tw-pl-4
+  tw-w-full
+  tw-list-disc
+}
+
+.faqListItem {
+  @apply
+  tw-text-xs
+  tw-text-text-primary
+}

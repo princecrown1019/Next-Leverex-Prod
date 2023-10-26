@@ -1,0 +1,48 @@
+.market {
+  @apply
+  tw-h-full
+  tw-flex
+  tw-flex-col
+  tw-justify-between
+}
+
+.marketContent {
+  @apply
+  tw-mt-6
+}
+
+.marketPreselectedButtons {
+  @apply
+  tw-mt-4
+}
+
+.marketEstimates {
+  @apply
+  tw-mt-4
+}
+
+.marketButton {
+  @apply
+  tw-mt-6
+  tw-bg-gradient-to-tr
+}
+
+.marketButtonLongSide {
+  @apply
+  tw-from-long-from
+  tw-to-long-to
+
+  disabled:tw-bg-transparent
+  disabled:tw-from-long-contrast-text-from
+  disabled:tw-to-long-contrast-text-to
+}
+
+.marketButtonShortSide {
+  @apply
+  tw-from-short-from
+  tw-to-short-to
+
+  disabled:tw-bg-transparent
+  disabled:tw-from-short-contrast-text-from
+  disabled:tw-to-short-contrast-text-to
+}

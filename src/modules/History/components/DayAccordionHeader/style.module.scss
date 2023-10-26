@@ -1,0 +1,39 @@
+.dayAccordionHeader {
+  @apply
+  tw-py-3
+  tw-px-6
+  tw-flex
+  tw-items-center
+
+  sm:tw-hidden
+}
+
+.dayAccordionHeaderIcon {
+  @apply
+  tw-mr-2
+  tw-min-w-max
+}
+
+.dayAccordionHeaderValue {
+  @apply
+  tw-flex-1
+  tw-text-xs
+}
+
+.dayAccordionHeaderValueMarginRight {
+  @apply
+  tw-mr-3
+  tw-flex-[unset]
+}
+
+.dayAccordionHeaderLoading {
+  @apply
+  tw-text-xs
+  tw-text-text-secondary
+}
+
+.dayAccordionHeaderChangeIcon {
+  @apply
+  tw-mr-2
+  tw-w-2
+}

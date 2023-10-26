@@ -1,0 +1,140 @@
+.staticSection:not(:first-of-type) {
+  @apply
+  tw-mt-8
+}
+
+.staticPitchMarginTop {
+  @apply
+  tw-mt-4
+}
+
+.staticList {
+  @apply
+  tw-mt-4
+}
+
+.staticListMain {
+  @apply
+  tw-mt-10
+}
+
+.staticListMain > .staticListItem:not(:first-of-type) {
+  @apply
+  tw-mt-8
+}
+
+.staticListDisc {
+  @apply
+  tw-list-disc
+}
+
+.staticListDecimal {
+  counter-reset: item;
+
+  @apply
+  tw-list-none
+}
+
+.staticListDecimal > .staticListItem {
+  counter-increment: item;
+
+  @apply
+  tw-table
+}
+
+.staticListDecimal > .staticListItem:before {
+  content: counters(item, ".") ".  ";
+
+  @apply
+  tw-pr-2
+  tw-table-cell
+}
+
+//.staticListItem::marker {
+//  @apply
+//  tw-text-text-primary
+//}
+
+.staticListLowerAlpha {
+  list-style: lower-alpha;
+
+  @apply
+  tw-pl-6
+}
+
+.staticListLowerAlpha > .staticListItem {
+  @apply
+  tw-list-item
+}
+
+.staticListLowerRoman {
+  list-style: lower-roman;
+
+  @apply
+  tw-pl-6
+}
+
+.staticListLowerRoman > .staticListItem {
+  @apply
+  tw-list-item
+}
+
+.staticListItem {
+  @apply
+  tw-font-normal
+  tw-text-lg
+  tw-text-text-grey-light
+}
+
+.staticListItemHeadline {
+  @apply
+  tw-font-bold
+  tw-text-2xl
+  tw-text-text-primary
+}
+
+.staticListItem:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.staticTable {
+  @apply
+  tw-mt-4
+  tw-w-full
+  tw-table
+  tw-border-collapse
+  tw-border-transparent
+}
+
+.staticTableBody {
+  @apply
+  tw-table-row-group
+}
+
+.staticTableRow {
+  @apply
+  tw-table-row
+  tw-outline-0
+  tw-align-middle
+}
+
+.staticTableRow:not(:first-of-type) > .staticTableCellBody,
+.staticTableRow:not(:first-of-type) > .staticTableCellBodyHeadline {
+  @apply
+  tw-pt-4
+}
+
+.staticTableCellBodyHeadline {
+  @apply
+  tw-align-top
+  tw-text-lg
+  tw-text-text-primary
+  tw-font-bold
+}
+
+.staticTableCellBody {
+  @apply
+  tw-text-lg
+  tw-text-text-grey-light
+}

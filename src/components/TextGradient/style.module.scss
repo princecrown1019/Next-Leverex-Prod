@@ -1,0 +1,24 @@
+.gradientText {
+  @apply
+  tw-text-text-primary
+}
+
+.gradientTextVisible {
+  @apply
+  tw-text-transparent
+  tw-bg-clip-text
+}
+
+.gradientTextLong {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-long-from
+  tw-to-long-to
+}
+
+.gradientTextShort {
+  @apply
+  tw-bg-gradient-to-tr
+  tw-from-short-from
+  tw-to-short-to
+}

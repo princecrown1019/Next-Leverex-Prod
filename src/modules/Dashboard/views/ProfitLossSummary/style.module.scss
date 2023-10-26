@@ -1,0 +1,18 @@
+.dashboardProfitLoss {
+  @apply
+  tw-py-3
+  tw-px-4
+  tw-flex
+  tw-bg-background-paper
+  tw-rounded-2xl
+  tw-whitespace-nowrap
+  tw-overflow-x-auto
+
+  s:tw-p-0
+  s:tw-flex-wrap
+}
+
+.dashboardProfitLossChangeArrow {
+  @apply
+  tw-mr-1
+}

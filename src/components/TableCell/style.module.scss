@@ -1,0 +1,16 @@
+.tableCell {
+  @apply
+  tw-flex-1
+}
+
+.tableCell:not(:last-of-type) {
+  @apply
+  tw-mr-2
+}
+
+.tableCellValue {
+  @apply
+  tw-flex
+  tw-text-xs
+  tw-text-text-primary
+}

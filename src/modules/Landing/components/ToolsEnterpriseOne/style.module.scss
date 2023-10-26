@@ -1,0 +1,75 @@
+.toolsEnterprise {
+  @apply
+  tw-flex
+  tw-flex-col
+}
+
+.toolsEnterprisePresentation {
+  @apply
+  tw-p-4
+  tw-max-w-[616px]
+  tw-rounded-[28px]
+  tw-bg-white-contrast-text
+  tw-leading-none
+  tw-select-none
+}
+
+
+.toolsEnterpriseContent {
+  @apply
+  tw-p-6
+  tw-bg-background-paper
+  tw-rounded-2xl
+  tw-max-w-[584px]
+  tw-w-full
+}
+
+.toolsEnterprisePitch {
+  @apply
+  tw-text-sm
+  tw-leading-[20px]
+  tw-text-text-primary
+}
+
+.toolsEnterpriseLinks {
+  @apply
+  tw-mt-4
+  tw-flex
+}
+
+.toolsEnterpriseLink {
+  @apply
+  tw-py-2
+  tw-px-3
+  tw-w-[168px]
+  tw-max-w-[168px]
+  tw-w-full
+  tw-flex
+  tw-items-center
+  tw-text-sm
+  tw-text-xs
+  tw-text-primary
+  tw-bg-[#272736]
+  tw-rounded-2xl
+
+  hover:tw-no-underline
+}
+
+.toolsEnterpriseLink:not(:last-of-type) {
+  @apply
+  tw-mr-4
+}
+
+.toolsEnterpriseLinkIcon {
+  @apply
+  tw-mr-2
+  tw-w-4
+  tw-h-4
+  tw-fill-primary
+}
+
+.toolsEnterpriseImg {
+  @apply
+  tw-flex-col
+  tw-mt-4
+}

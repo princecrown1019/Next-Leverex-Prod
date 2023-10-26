@@ -1,0 +1,54 @@
+.positions {
+  @apply
+  tw-flex
+  tw-flex-col
+}
+
+.positionsRounded {
+  @apply
+  tw-bg-background-paper
+  tw-rounded-2xl
+}
+
+.positionsTabs {
+  @apply
+  tw-flex
+
+  after:tw-content-['']
+  after:tw-block
+  after:tw-flex-1
+  after:tw-border-y-[1px]
+  after:tw-border-y-border
+}
+
+.positionsTabsRounded {
+  @apply
+  after:tw-border-t-transparent
+}
+
+.positionsTab {
+  @apply
+  tw-w-36
+}
+
+.positionsList {
+  @apply
+  tw-flex
+  tw-flex-1
+  tw-h-full
+  tw-flex-col
+  tw-overflow-hidden
+  tw-overflow-x-auto
+
+  sm:tw-overflow-visible
+  sm:tw-overflow-x-visible
+}
+
+.positionsListTestnet {
+  background-size: 50%;
+
+  @apply
+  tw-bg-[url(/static/media/testnet-watermark.svg)]
+  tw-bg-center
+  tw-bg-no-repeat
+}

@@ -1,0 +1,34 @@
+.preselectedButtons {
+  @apply
+  tw-mt-4
+  tw-flex
+}
+
+.preselectedButton {
+  @apply
+  tw-py-2
+  tw-flex-1
+  tw-text-[10px]
+  tw-text-text-secondary
+  tw-bg-background-input
+  tw-rounded-lg
+
+  hover:tw-bg-primary-contrast-text
+  hover:tw-text-primary
+}
+
+.preselectedButton:last-of-type {
+  @apply
+  tw-flex-[1.25]
+}
+
+.preselectedButton:not(:last-of-type) {
+  @apply
+  tw-mr-2
+}
+
+.preselectedButtonActive {
+  @apply
+  tw-bg-primary-contrast-text
+  tw-text-primary
+}

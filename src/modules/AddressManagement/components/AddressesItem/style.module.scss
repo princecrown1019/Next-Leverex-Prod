@@ -1,0 +1,51 @@
+.addressesItem {
+  @apply
+  tw-p-4
+  tw-w-full
+  tw-flex
+  tw-items-center
+  tw-justify-between
+  tw-rounded-2xl
+  tw-bg-background-input
+}
+
+.addressesItem:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.addressesItemLeft {
+  @apply
+  tw-mr-4
+}
+
+.addressesItemLabel {
+  @apply
+  tw-font-medium
+  tw-text-base
+  tw-text-text-primary
+}
+
+.addressesItemAddress {
+  @apply
+  tw-mt-2
+  tw-text-xs
+  tw-block
+  tw-text-text-secondary
+  tw-whitespace-pre-wrap
+  tw-break-all
+}
+
+.addressesItemButton {
+  @apply
+  tw-p-1
+  tw-rounded-md
+  tw-h-7
+  tw-min-w-[1.75rem]
+}
+
+.addressesItemIcon {
+  @apply
+  tw-h-5
+  tw-w-5
+}

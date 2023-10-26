@@ -1,0 +1,99 @@
+.solutions {
+  @apply
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-px-[60px]
+
+  tw-opacity-0
+  tw-translate-y-[-100px]
+  tw-ease-in-out
+  tw-duration-[550ms]
+  tw-transition-all
+
+  sm:tw-px-4
+}
+
+.solutionsLink {
+  background: linear-gradient(94.73deg, #C24DCC 0%, rgba(95, 127, 240, 0.536458) 52.12%, #71E4EB 99.07%);
+
+  @apply
+  tw-pt-14
+  tw-px-14
+  tw-pb-8
+  tw-max-w-[900px]
+  tw-w-full
+  tw-rounded-3xl
+  tw-flex
+  tw-flex-col
+  tw-items-center
+  tw-justify-center
+  tw-no-underline
+
+  hover:tw-no-underline
+
+  sm:tw-pt-8
+}
+
+.solutionsLinkOnScreen {
+  @apply
+  tw-opacity-100
+  tw-translate-y-0
+}
+
+.solutionsHeadline {
+  @apply
+  tw-font-bold
+  tw-text-[32px]
+  tw-text-text-primary
+  tw-leading-[48px]
+  tw-text-center
+  tw-max-w-[609px]
+
+  sm:tw-max-w-[280px]
+  sm:tw-text-lg
+  sm:tw-leading-[28px]
+}
+
+.solutionsPitches {
+  @apply
+  tw-mt-8
+  tw-flex
+}
+
+.solutionsPitch {
+  @apply
+  tw-flex-1
+  tw-text-base
+  tw-text-text-primary
+  tw-text-left
+}
+
+.solutionsPitch:not(:last-of-type) {
+  @apply
+  tw-mr-6
+}
+
+.solutionsButton {
+  @apply
+  tw-mt-8
+  tw-py-4
+  tw-w-[240px]
+  tw-border-[2px]
+  tw-border-text-primary
+  tw-bg-transparent
+  tw-text-text-primary
+  tw-rounded-2xl
+  tw-flex
+  tw-justify-center
+  tw-items-center
+  tw-font-bold
+
+  tw-transition-all
+  tw-duration-200
+
+  hover:tw-bg-text-primary
+  hover:tw-text-background-paper
+
+  sm:tw-w-[256px]
+}

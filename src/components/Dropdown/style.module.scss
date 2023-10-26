@@ -1,0 +1,92 @@
+.dropdownContainer {
+  @apply
+  tw-relative
+  tw-bg-background-input
+  tw-rounded-lg
+}
+
+.dropdownContainerVisible {
+  @apply
+  tw-rounded-bl-none
+  tw-rounded-br-none
+}
+
+.dropdownButton {
+  @apply
+  tw-py-2
+  tw-px-4
+  tw-w-full
+  tw-overflow-hidden
+  tw-flex
+  tw-items-center
+  tw-justify-between
+}
+
+.dropdownContainerLeft {
+  @apply
+  tw-mr-4
+  tw-flex-1
+}
+
+.dropdownLabel {
+  @apply
+  tw-text-[10px]
+  tw-leading-[14px]
+  tw-block
+  tw-flex-1
+  tw-text-text-secondary
+  tw-scale-[1.6]
+  tw-translate-y-[9px]
+  tw-origin-top-left
+  tw-transition-all
+  tw-w-max
+}
+
+.dropdownFocusedLabel {
+  @apply
+  tw-scale-100
+  tw-translate-y-[2px]
+}
+
+.dropdownSelected {
+  @apply
+  tw-mt-[2px]
+  tw-flex
+  tw-justify-between
+  tw-items-center
+  tw-relative
+  tw-h-6
+
+  tw-opacity-100
+  tw-duration-200
+  tw-transition-opacity
+}
+
+.dropdownSelectedVisible {
+  @apply
+  tw-opacity-0
+}
+
+.dropdownContent {
+  @apply
+  tw-h-0
+  tw-w-full
+  tw-absolute
+  tw-z-[1]
+  tw-overflow-hidden
+  tw-bg-background-input
+  tw-rounded-bl-lg
+  tw-rounded-br-lg
+}
+
+.dropdownContentVisible {
+  @apply
+  tw-px-2
+  tw-pb-2
+  tw-h-[unset]
+}
+
+.dropdownContentList {
+  @apply
+  tw-list-none
+}

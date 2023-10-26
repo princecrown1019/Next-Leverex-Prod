@@ -1,0 +1,30 @@
+@keyframes placeHolderShimmer {
+  0%{ transform: translateX(-100%); }
+  100%{ transform: translateX(100%); }
+}
+
+.loadingAnimatedOverlayContainer {
+  @apply
+  tw-absolute
+  tw-left-0
+  tw-right-0
+  tw-bottom-0
+  tw-top-0
+  tw-bg-background-paper
+  tw-z-20
+  tw-flex
+}
+
+.loadingAnimatedOverlay {
+  background: linear-gradient(to right, #21212E 10%, #272736 50%, #21212E 90%);
+  animation: placeHolderShimmer 1.5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+
+  @apply
+  tw-absolute
+  tw-left-0
+  tw-bottom-0
+  tw-top-0
+  tw-right-0
+  tw-flex-1
+}
+

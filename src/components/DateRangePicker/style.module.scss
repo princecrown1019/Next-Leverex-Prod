@@ -1,0 +1,17 @@
+.dateRange {
+  @apply
+  tw-flex
+  tw-max-w-[510.59px]
+  tw-min-w-[510.59px]
+  tw-h-fit
+}
+
+.dateRangeSide {
+  @apply
+  tw-flex-1
+}
+
+.dateRangeDivider {
+  @apply
+  tw-h-[unset]
+}

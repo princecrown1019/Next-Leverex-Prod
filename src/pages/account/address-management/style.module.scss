@@ -1,0 +1,19 @@
+.addressManagement {
+  @apply
+  tw-p-6
+  tw-w-full
+  tw-max-w-lg
+}
+
+.addressManagementHeadlineRow {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-w-full
+  tw-justify-between
+}
+
+.addressManagementContent {
+  @apply
+  tw-mt-4
+}

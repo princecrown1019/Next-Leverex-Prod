@@ -1,0 +1,150 @@
+.faqLayout {
+  @apply
+  tw-mx-auto
+  tw-py-32
+  tw-max-w-[1000px]
+  tw-w-full
+  tw-flex
+
+  md:tw-pt-0
+  md:tw-flex-col
+  md:tw-max-w-full
+  md:tw-max-w-full
+}
+
+.faqLayoutNav {
+  @apply
+  tw-mr-14
+  tw-min-w-[280px]
+  tw-sticky
+  tw-top-24
+  tw-h-fit
+
+  md:tw-mt-[68px]
+  md:tw-pt-[72px]
+  md:tw-pb-1
+  md:tw-top-[-1px]
+  md:tw-w-full
+  md:tw-backdrop-blur-xl
+  md:tw-border-[1px]
+  md:tw-border-transparent
+  md:tw-z-[1]
+}
+
+.faqLayoutNavStickyMobile {
+  @apply
+  tw-border-white-contrast-text
+}
+
+.faqLayoutCrumbs {
+  @apply
+  tw-flex
+  tw-text-sm
+  tw-items-center
+
+  md:tw-mx-auto
+  md:tw-px-4
+  md:tw-text-xs
+  md:tw-max-w-[640px]
+
+}
+
+.faqLayoutCrumbsLink {
+  @apply
+  tw-text-text-secondary
+
+  hover:tw-no-underline
+}
+
+.faqLayoutCrumbsSeparator {
+  @apply
+  tw-mx-2
+  tw-text-text-secondary
+}
+
+.faqLayoutCrumbsText {
+  @apply
+  tw-text-text-primary
+}
+
+.faqLayoutNavList {
+  @apply
+  tw-mt-6
+  tw-p-4
+  tw-w-full
+  tw-list-none
+  tw-rounded-2xl
+  tw-bg-background-paper
+  tw-w-full
+  tw-overflow-auto
+
+  md:tw-hidden
+}
+
+.faqLayoutNavItem {
+  @apply
+  tw-w-full
+}
+
+.faqLayoutNavItem:not(:first-of-type) {
+  @apply
+  tw-mt-2
+}
+
+.faqLayoutNavLink {
+  @apply
+  tw-p-4
+  tw-w-full
+  tw-rounded-md
+  tw-font-medium
+  tw-text-sm
+  tw-text-text-secondary
+  tw-overflow-hidden
+  tw-flex
+  tw-items-center
+
+  group-hover:tw-text-text-primary
+  group-hover:tw-bg-background-input
+}
+
+.faqLayoutNavLinkActive {
+  @apply
+  tw-bg-background-input
+  tw-text-primary
+}
+
+.faqLayoutNavLinkActive > .faqLayoutSidebarIcon {
+  @apply
+  tw-fill-primary
+}
+
+.faqLayoutSidebarIcon {
+  @apply
+  tw-mr-3
+  tw-w-6
+  tw-h-6
+
+  group-hover:tw-fill-text-primary
+}
+
+.faqLayoutSection {
+  @apply
+  tw-w-full
+
+  md:tw-mx-auto
+  md:tw-px-4
+  md:tw-max-w-[640px]
+}
+
+.faqLayoutHeadline {
+  @apply
+  tw-font-bold
+  tw-text-text-primary
+  tw-text-2xl
+}
+
+.faqLayoutContent {
+  @apply
+  tw-mt-8
+  tw-w-full
+}

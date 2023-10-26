@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://dev.leverex.io</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/about-us</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/corporates</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/corporates/onboarding</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/exchange</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq/account</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq/api</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq/deposits-and-withdrawals</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq/fees</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq/help-and-contact</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/faq/trading</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/market-marker-program</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/participant-agreement</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/privacy-policy</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/regulation</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dev.leverex.io/terms-of-use</loc><lastmod>2022-08-30T10:24:49.344Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

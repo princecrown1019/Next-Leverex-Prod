@@ -1,0 +1,21 @@
+.exploreSlidePresentation {
+  @apply
+  tw-p-4
+  tw-rounded-[28px]
+  tw-bg-white-contrast-text
+  tw-leading-none
+  tw-select-none
+
+  md:tw-p-2
+  md:tw-rounded-2xl
+}
+
+.exploreSlideImage {
+  @apply
+  tw-w-full
+  tw-h-full
+  tw-rounded-2xl
+  tw-object-cover
+
+  md:tw-rounded-xl
+}

@@ -1,0 +1,24 @@
+.addDeviceKey {
+  @apply
+  tw-p-6
+  tw-w-full
+}
+
+.addDeviceKeyHeadlineRow {
+  @apply
+  tw-flex
+  tw-items-center
+  tw-w-full
+}
+
+.addDeviceKeyBackButton {
+  @apply
+  tw-mr-3
+  tw-rounded-md
+  tw-text-text-primary
+}
+
+.addDeviceKeyContent {
+  @apply
+  tw-mt-6
+}

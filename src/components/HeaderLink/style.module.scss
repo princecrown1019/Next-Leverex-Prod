@@ -1,0 +1,25 @@
+.headerLinkListItem:not(:last-of-type) {
+  @apply
+  tw-mr-2
+
+  md:tw-mr-0
+}
+
+.headerLink {
+  @apply
+  tw-px-6
+  tw-flex
+  tw-text-sm
+  tw-font-normal
+  tw-items-center
+  tw-h-full
+  tw-text-text-primary
+  tw-no-underline
+
+  md:tw-text-5xl
+  md:tw-font-bold
+  md:tw-leading-[82px]
+
+  sm:tw-text-xl
+  sm:tw-leading-[64px]
+}

@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Disallow: /account/*
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dev.leverex.io
+
+# Sitemaps
+Sitemap: https://dev.leverex.io/sitemap.xml

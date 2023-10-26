@@ -1,0 +1,16 @@
+.tableBody {
+  @apply
+  tw-w-full
+  tw-h-full
+}
+
+.tableBodyNotVirtualized {
+  @apply
+  tw-h-[calc(100%-42px)]
+  tw-overflow-auto
+}
+
+.tableBodyList {
+  @apply
+  tw-pb-6
+}

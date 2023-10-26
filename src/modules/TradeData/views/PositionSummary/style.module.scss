@@ -1,0 +1,24 @@
+.positionSummary {
+  @apply
+  tw-mt-4
+  tw-w-full
+}
+
+.positionSummaryValueWithIcon {
+  @apply
+  tw-flex
+  tw-items-center
+}
+
+.positionSummaryValueIcon {
+  @apply
+  tw-mr-2
+  tw-w-3
+  tw-h-3
+}
+
+.positionSummaryValue {
+  @apply
+  tw-text-sm
+  tw-text-text-primary
+}

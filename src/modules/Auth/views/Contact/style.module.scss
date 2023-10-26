@@ -1,0 +1,15 @@
+.contactModalForm {
+  @apply
+  tw-mt-8
+  tw-w-full
+}
+
+.contactModalFormInput:not(:first-of-type) {
+  @apply
+  tw-mt-4
+}
+
+.contactModalButton {
+  @apply
+  tw-mt-6
+}

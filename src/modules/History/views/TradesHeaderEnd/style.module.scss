@@ -1,0 +1,21 @@
+.tradesHeaderEnd {
+  @apply
+  tw-flex
+}
+
+.tradesHeaderFilter {
+  @apply
+  tw-mr-4
+}
+
+.tradesHeaderDownloadButton {
+  @apply
+  disabled:tw-opacity-100
+}
+
+.tradesHeaderEndDownloadAnchor {
+  @apply
+  tw-h-0
+  tw-w-0
+  tw-opacity-0
+}

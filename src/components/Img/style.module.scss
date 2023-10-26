@@ -1,0 +1,12 @@
+.img {
+  @apply
+  tw-opacity-0
+  tw-w-full
+  tw-transition-opacity
+  tw-duration-150
+}
+
+.imgLoaded {
+  @apply
+  tw-opacity-100
+}
